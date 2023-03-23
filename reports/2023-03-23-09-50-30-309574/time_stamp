@@ -1,0 +1,14 @@
+2023-03-23-09-50-30-309574
+Traceback of setup call:
+  File "direct_1D.py", line 186, in <module>
+    with spin:
+  File "direct_1D.py", line 63, in __enter__
+    p.setup(timestep=1.0, n_boards_required=24)
+  File "/home/juan/20230323_spin/sPyNNaker/spynnaker/pyNN/__init__.py", line 349, in setup
+    __simulator = SpiNNaker(
+  File "/home/juan/20230323_spin/sPyNNaker/spynnaker/pyNN/spinnaker.py", line 111, in __init__
+    super().__init__(
+  File "/home/juan/20230323_spin/SpiNNFrontEndCommon/spinn_front_end_common/interface/abstract_spinnaker_base.py", line 202, in __init__
+    self._set_up_report_specifics()
+  File "/home/juan/20230323_spin/SpiNNFrontEndCommon/spinn_front_end_common/interface/config_handler.py", line 205, in _set_up_report_specifics
+    traceback.print_stack(file=f)

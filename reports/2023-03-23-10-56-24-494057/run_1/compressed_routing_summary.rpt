@@ -1,0 +1,18 @@
+        Routing Summary Report
+        ======================
+
+Generated: Thu Mar 23 10:56:56 2023 for target machine '172.16.223.1'
+
+Chip 0:0 has 531 entries of which 0 are defaultable and 411 link only with 33 unique spinnaker routes
+Chip 0:1 has 472 entries of which 0 are defaultable and 360 link only with 15 unique spinnaker routes
+Chip 1:0 has 472 entries of which 0 are defaultable and 336 link only with 36 unique spinnaker routes
+Chip 1:1 has 472 entries of which 0 are defaultable and 344 link only with 17 unique spinnaker routes
+Chip 2:0 has 354 entries of which 295 are defaultable and 354 link only with 1 unique spinnaker routes
+Chip 3:0 has 295 entries of which 236 are defaultable and 295 link only with 1 unique spinnaker routes
+Chip 4:0 has 236 entries of which 0 are defaultable and 236 link only with 1 unique spinnaker routes
+Chip 5:1 has 177 entries of which 118 are defaultable and 177 link only with 1 unique spinnaker routes
+Chip 6:2 has 118 entries of which 59 are defaultable and 118 link only with 1 unique spinnaker routes
+Chip 7:3 has 59 entries of which 0 are defaultable and 59 link only with 1 unique spinnaker routes
+
+ Total entries 3186, max per chip 531 max none defaultable 531 max link only 411 max unique spinnaker routes 36
+

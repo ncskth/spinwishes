@@ -1,0 +1,42 @@
+        Routing Summary Report
+        ======================
+
+Generated: Thu Mar 23 10:07:19 2023 for target machine '172.16.223.1'
+
+Chip 0:0 has 31 entries of which 0 are defaultable and 3 link only with 31 unique spinnaker routes
+Chip 0:1 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 0:2 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 0:3 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 1:0 has 51 entries of which 0 are defaultable and 3 link only with 51 unique spinnaker routes
+Chip 1:1 has 17 entries of which 0 are defaultable and 2 link only with 17 unique spinnaker routes
+Chip 1:2 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 1:3 has 17 entries of which 0 are defaultable and 2 link only with 17 unique spinnaker routes
+Chip 1:4 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 2:0 has 51 entries of which 0 are defaultable and 3 link only with 51 unique spinnaker routes
+Chip 2:1 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 2:2 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 2:3 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 2:5 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 3:0 has 51 entries of which 0 are defaultable and 3 link only with 51 unique spinnaker routes
+Chip 3:1 has 17 entries of which 0 are defaultable and 2 link only with 17 unique spinnaker routes
+Chip 3:2 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 3:3 has 17 entries of which 0 are defaultable and 2 link only with 17 unique spinnaker routes
+Chip 3:4 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 3:5 has 17 entries of which 0 are defaultable and 2 link only with 17 unique spinnaker routes
+Chip 4:0 has 52 entries of which 0 are defaultable and 4 link only with 51 unique spinnaker routes
+Chip 4:1 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 4:2 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 4:3 has 17 entries of which 0 are defaultable and 1 link only with 17 unique spinnaker routes
+Chip 4:4 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 4:5 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 5:1 has 52 entries of which 0 are defaultable and 4 link only with 52 unique spinnaker routes
+Chip 5:2 has 17 entries of which 0 are defaultable and 2 link only with 17 unique spinnaker routes
+Chip 5:3 has 17 entries of which 0 are defaultable and 1 link only with 17 unique spinnaker routes
+Chip 5:4 has 16 entries of which 0 are defaultable and 1 link only with 16 unique spinnaker routes
+Chip 6:2 has 35 entries of which 0 are defaultable and 3 link only with 35 unique spinnaker routes
+Chip 6:3 has 18 entries of which 0 are defaultable and 2 link only with 18 unique spinnaker routes
+Chip 6:4 has 10 entries of which 0 are defaultable and 1 link only with 10 unique spinnaker routes
+Chip 7:3 has 512 entries of which 0 are defaultable and 512 link only with 1 unique spinnaker routes
+
+ Total entries 1285, max per chip 512 max none defaultable 512 max link only 512 max unique spinnaker routes 52
+

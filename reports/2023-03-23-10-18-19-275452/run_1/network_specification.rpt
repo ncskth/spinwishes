@@ -1,0 +1,14 @@
+*** Vertices:
+Vertex input, size: 400, model: SPIFInputDevice, max_atoms30
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 1, From input to middle, model: ProjectionApplicationEdge
+
+Vertex middle, size: 400, model: AbstractPopulationVertex, max_atoms32
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: None, From middle to output, model: ApplicationEdge
+
+Vertex output, size: 1, model: SPIFOutputDevice, max_atoms1
+    Outgoing Edge Partitions:
+

@@ -1,0 +1,37 @@
+Uncompressed table at 6:2 has 4096 entries whereas compressed table has 34 entries. This is a decrease of 99.169921875%
+Uncompressed table at 5:2 has 4096 entries whereas compressed table has 16 entries. This is a decrease of 99.609375%
+Uncompressed table at 4:1 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 4:2 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 3:1 has 4096 entries whereas compressed table has 16 entries. This is a decrease of 99.609375%
+Uncompressed table at 3:2 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 2:1 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 2:2 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 1:1 has 4096 entries whereas compressed table has 16 entries. This is a decrease of 99.609375%
+Uncompressed table at 1:2 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 0:1 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 0:2 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 6:3 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 5:3 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 4:3 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 3:3 has 4096 entries whereas compressed table has 16 entries. This is a decrease of 99.609375%
+Uncompressed table at 2:3 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 1:3 has 4096 entries whereas compressed table has 16 entries. This is a decrease of 99.609375%
+Uncompressed table at 0:3 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 1:4 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 6:4 has 4096 entries whereas compressed table has 10 entries. This is a decrease of 99.755859375%
+Uncompressed table at 5:4 has 4096 entries whereas compressed table has 16 entries. This is a decrease of 99.609375%
+Uncompressed table at 4:4 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 3:4 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 4:5 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 3:5 has 4096 entries whereas compressed table has 16 entries. This is a decrease of 99.609375%
+Uncompressed table at 2:5 has 4096 entries whereas compressed table has 17 entries. This is a decrease of 99.5849609375%
+Uncompressed table at 4:0 has 4096 entries whereas compressed table has 51 entries. This is a decrease of 98.7548828125%
+Uncompressed table at 0:0 has 4155 entries whereas compressed table has 31 entries. This is a decrease of 99.25391095066185%
+Uncompressed table at 2:0 has 4096 entries whereas compressed table has 51 entries. This is a decrease of 98.7548828125%
+Uncompressed table at 5:1 has 4096 entries whereas compressed table has 51 entries. This is a decrease of 98.7548828125%
+Uncompressed table at 3:0 has 4096 entries whereas compressed table has 51 entries. This is a decrease of 98.7548828125%
+Uncompressed table at 1:0 has 4096 entries whereas compressed table has 51 entries. This is a decrease of 98.7548828125%
+Uncompressed table at 7:3 has 512 entries whereas compressed table has 512 entries. This is a decrease of 0.0%
+
+Total has 135739 entries whereas compressed tables have 1260 entries. This is an average decrease of 99.07174798694554%
+Worst case has 512 entries whereas compressed tables have 512 entries. This is a decrease of 0.0%

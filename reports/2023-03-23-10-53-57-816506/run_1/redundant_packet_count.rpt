@@ -1,0 +1,176 @@
+
+core Capture for device 0(0:127) 
+    213 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(1024:1151) 
+    232 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(1152:1279) 
+    208 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(1280:1407) 
+    221 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(128:255) 
+    199 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(1408:1535) 
+    222 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(1536:1663) 
+    218 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(1664:1791) 
+    190 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(1792:1919) 
+    211 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(1920:2047) 
+    256 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(2048:2175) 
+    212 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(2176:2303) 
+    205 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(2304:2431) 
+    214 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(2432:2559) 
+    221 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(2560:2687) 
+    235 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(256:383) 
+    214 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(2688:2815) 
+    232 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(2816:2943) 
+    231 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(2944:3071) 
+    193 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(384:511) 
+    240 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(512:639) 
+    232 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(640:767) 
+    206 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(768:895) 
+    222 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+core Capture for device 0(896:1023) 
+    224 packets received. 
+    0 were detected as redundant packets by the bitfield filter. 
+    0 were detected as having no targets after the DMA stage. 
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.0
+
+The total packets flown in system was 5251
+    The max, min and avergae per core was 256, 190, 218.79166666666666 packets.
+The total redundant packets was 0
+    The max, min and avergae per core was 0, 0, 0.0 packets.
+The percentages of redundant packets was 0.0
+    The max and min percentages of redundant packets are 0.0 and 0.0. 
+    The average redundant percentages from each core were 0.0 accordingly.

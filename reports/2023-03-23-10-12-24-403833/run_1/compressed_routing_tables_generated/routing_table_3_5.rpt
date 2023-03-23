@@ -1,0 +1,21 @@
+Router contains 17 entries
+Index Key        Mask       Route      Default [Cores][Links]
+----- ---------- ---------- ---------- ------- --------------
+    0 0x0000B000 0xFFFFF000 0x00000020 False   [] [S]
+    1 0x00003700 0xFFFFFFE0 0x00000108 False   [2] [W]
+    2 0x00003720 0xFFFFFFE0 0x00000208 False   [3] [W]
+    3 0x00003740 0xFFFFFFE0 0x00000408 False   [4] [W]
+    4 0x00003760 0xFFFFFFE0 0x00000808 False   [5] [W]
+    5 0x00003780 0xFFFFFFE0 0x00001008 False   [6] [W]
+    6 0x000037A0 0xFFFFFFE0 0x00002008 False   [7] [W]
+    7 0x000037C0 0xFFFFFFE0 0x00004008 False   [8] [W]
+    8 0x000037E0 0xFFFFFFE0 0x00008008 False   [9] [W]
+    9 0x00003800 0xFFFFFFE0 0x00010008 False   [10] [W]
+   10 0x00003820 0xFFFFFFE0 0x00020008 False   [11] [W]
+   11 0x00003840 0xFFFFFFE0 0x00040008 False   [12] [W]
+   12 0x00003860 0xFFFFFFE0 0x00080008 False   [13] [W]
+   13 0x00003880 0xFFFFFFE0 0x00100008 False   [14] [W]
+   14 0x000038A0 0xFFFFFFE0 0x00200008 False   [15] [W]
+   15 0x000038C0 0xFFFFFFE0 0x00400008 False   [16] [W]
+   16 0x00000000 0xFFFFC000 0x00000008 False   [] [W]
+0 Defaultable entries

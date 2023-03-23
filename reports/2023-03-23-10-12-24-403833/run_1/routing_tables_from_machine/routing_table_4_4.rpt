@@ -1,0 +1,22 @@
+Router contains 18 entries
+Index Key        Mask       Route      Default [Cores][Links]
+----- ---------- ---------- ---------- ------- --------------
+    0 0x00002740 0xFFFFFFE0 0x0000010C False   [2] [N, W]
+    1 0x00002760 0xFFFFFFE0 0x0000020C False   [3] [N, W]
+    2 0x00002780 0xFFFFFFE0 0x0000040C False   [4] [N, W]
+    3 0x000027A0 0xFFFFFFE0 0x0000080C False   [5] [N, W]
+    4 0x000027C0 0xFFFFFFE0 0x0000100C False   [6] [N, W]
+    5 0x000027E0 0xFFFFFFE0 0x0000200C False   [7] [N, W]
+    6 0x00002800 0xFFFFFFE0 0x0000400C False   [8] [N, W]
+    7 0x00002820 0xFFFFFFE0 0x0000800C False   [9] [N, W]
+    8 0x00002840 0xFFFFFFE0 0x0001000C False   [10] [N, W]
+    9 0x00002860 0xFFFFFFE0 0x0002000C False   [11] [N, W]
+   10 0x00002880 0xFFFFFFE0 0x0004000C False   [12] [N, W]
+   11 0x000028A0 0xFFFFFFE0 0x0008000C False   [13] [N, W]
+   12 0x000028C0 0xFFFFFFE0 0x0010000C False   [14] [N, W]
+   13 0x000028E0 0xFFFFFFE0 0x0020000C False   [15] [N, W]
+   14 0x00002900 0xFFFFFFE0 0x0040000C False   [16] [N, W]
+   15 0x00002920 0xFFFFFFE0 0x0080000C False   [17] [N, W]
+   16 0x0000A000 0xFFFFE000 0x00000010 False   [] [SW]
+   17 0x00000000 0xFFFFC000 0x0000000C False   [] [N, W]
+0 Defaultable entries

@@ -1,0 +1,63 @@
+SpYNNakerNeuronGraphNetworkSpecificationReport skipped as cfg Reports:write_network_graph is False
+Network Specification report took 0:00:00.000166 
+Splitter reset took 0:00:00.000015 
+Spynnaker splitter selector took 0:00:00.018807 
+DelaySupportAdder took 0:00:00.000060 
+SpynnakerSplitterPartitioner took 0:00:00.003725 
+SpallocAllocator took 0:00:09.249191 
+Machine generator took 0:00:14.193789 
+Json machine skipped as cfg Reports:write_json_machine is False
+Board chip report took 0:00:00.005482 
+Command Sender Adder took 0:00:00.000650 
+Split Live Gather Vertices took 0:00:00.000015 
+Insert chip power monitors skipped as cfg Reports:write_energy_report is False
+Insert extra monitor vertices took 0:00:00.000013 
+Partitioner report took 0:00:00.002820 
+Local TDMA builder took 0:00:00.000036 
+Application Placer took 0:00:00.054637 
+Placements wth application graph report took 0:00:00.011400 
+Json placements skipped as cfg Reports:write_json_placements is False
+System multicast routing generator took 0:00:00.058142 
+Fixed route router took 0:00:00.010801 
+Application Router took 0:00:00.003265 
+Basic tag allocator took 0:00:00.002275 
+Tag allocator report took 0:00:00.000165 
+Zoned routing info allocator took 0:00:00.004722 
+Router info report took 0:00:00.000420 
+Merged routing table generator took 0:00:00.000211 
+Uncompressed routing table report took 0:00:00.000395 
+Router report skipped as cfg Reports:write_router_reports is False
+Router summary report skipped as cfg Reports:write_router_summary_report is False
+Json routing tables skipped as cfg Reports:write_json_routing_tables is False
+Locate executable start type took 0:00:00.002271 
+Buffer manager creator took 0:00:00.001295 
+SDRAM outgoing partition allocator took 0:00:00.000051 
+Write Neo Metadata took 0:00:00.001074 
+Record vertex labels to database took 0:00:00.012835 
+Routing setup took 0:00:00.001429 
+Graph binary gatherer took 0:00:00.010124 
+Pair on chip router compression skipped as Tables already small enough
+Graph data specification writer took 0:00:00.355821 
+Control Sync took 0:00:00.000153 
+Load fixed routes took 0:00:00.206890 
+Execute system data specification took 0:00:01.642769 
+Load executable system Images took 0:00:01.590739 
+Tags Loader took 0:00:00.020337 
+Host data specification took 0:00:00.770792 
+Neuron expander took 0:00:00.512970 
+Synapse expander took 0:00:00.514186 
+Finish connection holders took 0:00:00.000450 
+Routing table loader took 0:00:00.001141 
+Bitfield compressor report skipped as cfg Reports:write_bit_field_compressor_report is False
+Tags from machine report took 0:00:00.014504 
+Memory report skipped as cfg Reports:write_memory_map_report is False
+Memory report skipped as cfg Reports:write_memory_map_report is False
+Compressor report took 0:00:00.001537 
+Fixed route report took 0:00:00.223235 
+Load executable app images took 0:00:01.099817 
+Sdram usage per chip report took 0:00:00.014329 
+Drift report skipped as cfg Reports:write_drift_report_start is False
+Create database interface took 0:00:00.056714 
+Create notification protocol took 0:00:00.000278 
+Runtime Update took 0:00:00.020809 
+Application runner exited with KeyboardInterrupt after 0:02:17.025681

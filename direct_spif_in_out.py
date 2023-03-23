@@ -126,7 +126,7 @@ class Computer:
                 x = self.lut[np_spikes[i]][0]
                 y = self.lut[np_spikes[i]][1]
                 polarity = 1
-                print(f"{np_spikes[i]} --> ({self.lut[np_spikes[i]][0]}, {self.lut[np_spikes[i]][1]})")
+                # print(f"{np_spikes[i]} --> ({self.lut[np_spikes[i]][0]}, {self.lut[np_spikes[i]][1]})")
                 packed = (NO_TIMESTAMP + (polarity << P_SHIFT) + (y << Y_SHIFT) + (x << X_SHIFT))
                 data += pack("<I", packed)
             self.sock.sendto(data, (self.pc_ip, self.pc_port))
@@ -153,8 +153,8 @@ def parse_args():
     parser.add_argument('-i', '--spif-ip', type= str, help="SPIF's IP address", default="172.16.223.2")
     parser.add_argument('-pi', '--in-port', type=int, help="SPIF's port", default=3333)
     parser.add_argument('-po', '--out-port', type=int, help="SPIF's port", default=3332)    
-    parser.add_argument('-x', '--width', type=int, help="Image width (in px)", default=640)
-    parser.add_argument('-y', '--height', type=int, help="Image height (in px)", default=640)
+    parser.add_argument('-x', '--width', type=int, help="Image width (in px)", default=128)
+    parser.add_argument('-y', '--height', type=int, help="Image height (in px)", default=128)
     parser.add_argument('-sx', '--sub-width', type=int, help="SPIF's sub-width", default=16)
     parser.add_argument('-sy', '--sub-height', type=int, help="SPIF's sub-height", default=8)
 

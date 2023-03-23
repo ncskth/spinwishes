@@ -1,0 +1,9 @@
+*** Vertices:
+Vertex SPIFInputDevice_1, size: 3072, model: SPIFInputDevice, max_atoms128
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 1, From SPIFInputDevice_1 to Capture for device 0, model: ProjectionApplicationEdge
+
+Vertex Capture for device 0, size: 3072, model: AbstractPopulationVertex, max_atoms128
+    Outgoing Edge Partitions:
+

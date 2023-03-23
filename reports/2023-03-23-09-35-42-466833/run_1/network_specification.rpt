@@ -1,0 +1,9 @@
+*** Vertices:
+Vertex input, size: 16384, model: SPIFRetinaDevice, max_atoms128
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: None, From input to output, model: ApplicationEdge
+
+Vertex output, size: 1, model: SPIFOutputDevice, max_atoms1
+    Outgoing Edge Partitions:
+

@@ -1,0 +1,9 @@
+        Routing Summary Report
+        ======================
+
+Generated: Thu Mar 23 09:47:55 2023 for target machine '172.16.223.1'
+
+Chip 0:0 has 59 entries of which 0 are defaultable and 59 link only with 1 unique spinnaker routes
+
+ Total entries 59, max per chip 59 max none defaultable 59 max link only 59 max unique spinnaker routes 1
+

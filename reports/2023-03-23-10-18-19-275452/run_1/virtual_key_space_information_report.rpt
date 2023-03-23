@@ -1,0 +1,304 @@
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS9, Routing Info: KeyAndMask:0xffffff94:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff94:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS19, Routing Info: KeyAndMask:0xffffff16:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff16:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS47, Routing Info: KeyAndMask:0xffffff42:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff42:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS46, Routing Info: KeyAndMask:0xffffff41:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff41:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS27, Routing Info: KeyAndMask:0xffffff26:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff26:0xffffffff
+Vertex: input
+    Partition: SPIKE, Routing Info: KeyAndMask:0x0:0xfffffe00
+    Machine Vertex: Incoming Machine vertex 0 for input:0:1:None:(0, 0), Slice: (0:29), Routing Info: KeyAndMask:0x0:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 0 for input:0:3:None:(0, 0), Slice: (0:29), Routing Info: KeyAndMask:0x1:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 0 for input:0:5:None:(0, 0), Slice: (0:29), Routing Info: KeyAndMask:0x2:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 0 for input:0:7:None:(0, 0), Slice: (0:29), Routing Info: KeyAndMask:0x3:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 0 for input:0:9:None:(0, 0), Slice: (0:29), Routing Info: KeyAndMask:0x4:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 0 for input:0:11:None:(0, 0), Slice: (0:29), Routing Info: KeyAndMask:0x5:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 0 for input:0:13:None:(0, 0), Slice: (0:29), Routing Info: KeyAndMask:0x6:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 0 for input:0:15:None:(0, 0), Slice: (0:29), Routing Info: KeyAndMask:0x7:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 1 for input:0:1:None:(0, 0), Slice: (30:59), Routing Info: KeyAndMask:0x20:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 1 for input:0:3:None:(0, 0), Slice: (30:59), Routing Info: KeyAndMask:0x21:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 1 for input:0:5:None:(0, 0), Slice: (30:59), Routing Info: KeyAndMask:0x22:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 1 for input:0:7:None:(0, 0), Slice: (30:59), Routing Info: KeyAndMask:0x23:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 1 for input:0:9:None:(0, 0), Slice: (30:59), Routing Info: KeyAndMask:0x24:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 1 for input:0:11:None:(0, 0), Slice: (30:59), Routing Info: KeyAndMask:0x25:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 1 for input:0:13:None:(0, 0), Slice: (30:59), Routing Info: KeyAndMask:0x26:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 1 for input:0:15:None:(0, 0), Slice: (30:59), Routing Info: KeyAndMask:0x27:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 2 for input:0:1:None:(0, 0), Slice: (60:89), Routing Info: KeyAndMask:0x40:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 2 for input:0:3:None:(0, 0), Slice: (60:89), Routing Info: KeyAndMask:0x41:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 2 for input:0:5:None:(0, 0), Slice: (60:89), Routing Info: KeyAndMask:0x42:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 2 for input:0:7:None:(0, 0), Slice: (60:89), Routing Info: KeyAndMask:0x43:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 2 for input:0:9:None:(0, 0), Slice: (60:89), Routing Info: KeyAndMask:0x44:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 2 for input:0:11:None:(0, 0), Slice: (60:89), Routing Info: KeyAndMask:0x45:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 2 for input:0:13:None:(0, 0), Slice: (60:89), Routing Info: KeyAndMask:0x46:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 2 for input:0:15:None:(0, 0), Slice: (60:89), Routing Info: KeyAndMask:0x47:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 3 for input:0:1:None:(0, 0), Slice: (90:119), Routing Info: KeyAndMask:0x60:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 3 for input:0:3:None:(0, 0), Slice: (90:119), Routing Info: KeyAndMask:0x61:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 3 for input:0:5:None:(0, 0), Slice: (90:119), Routing Info: KeyAndMask:0x62:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 3 for input:0:7:None:(0, 0), Slice: (90:119), Routing Info: KeyAndMask:0x63:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 3 for input:0:9:None:(0, 0), Slice: (90:119), Routing Info: KeyAndMask:0x64:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 3 for input:0:11:None:(0, 0), Slice: (90:119), Routing Info: KeyAndMask:0x65:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 3 for input:0:13:None:(0, 0), Slice: (90:119), Routing Info: KeyAndMask:0x66:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 3 for input:0:15:None:(0, 0), Slice: (90:119), Routing Info: KeyAndMask:0x67:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 4 for input:0:1:None:(0, 0), Slice: (120:149), Routing Info: KeyAndMask:0x80:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 4 for input:0:3:None:(0, 0), Slice: (120:149), Routing Info: KeyAndMask:0x81:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 4 for input:0:5:None:(0, 0), Slice: (120:149), Routing Info: KeyAndMask:0x82:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 4 for input:0:7:None:(0, 0), Slice: (120:149), Routing Info: KeyAndMask:0x83:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 4 for input:0:9:None:(0, 0), Slice: (120:149), Routing Info: KeyAndMask:0x84:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 4 for input:0:11:None:(0, 0), Slice: (120:149), Routing Info: KeyAndMask:0x85:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 4 for input:0:13:None:(0, 0), Slice: (120:149), Routing Info: KeyAndMask:0x86:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 4 for input:0:15:None:(0, 0), Slice: (120:149), Routing Info: KeyAndMask:0x87:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 5 for input:0:1:None:(0, 0), Slice: (150:179), Routing Info: KeyAndMask:0xa0:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 5 for input:0:3:None:(0, 0), Slice: (150:179), Routing Info: KeyAndMask:0xa1:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 5 for input:0:5:None:(0, 0), Slice: (150:179), Routing Info: KeyAndMask:0xa2:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 5 for input:0:7:None:(0, 0), Slice: (150:179), Routing Info: KeyAndMask:0xa3:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 5 for input:0:9:None:(0, 0), Slice: (150:179), Routing Info: KeyAndMask:0xa4:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 5 for input:0:11:None:(0, 0), Slice: (150:179), Routing Info: KeyAndMask:0xa5:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 5 for input:0:13:None:(0, 0), Slice: (150:179), Routing Info: KeyAndMask:0xa6:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 5 for input:0:15:None:(0, 0), Slice: (150:179), Routing Info: KeyAndMask:0xa7:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 6 for input:0:1:None:(0, 0), Slice: (180:209), Routing Info: KeyAndMask:0xc0:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 6 for input:0:3:None:(0, 0), Slice: (180:209), Routing Info: KeyAndMask:0xc1:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 6 for input:0:5:None:(0, 0), Slice: (180:209), Routing Info: KeyAndMask:0xc2:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 6 for input:0:7:None:(0, 0), Slice: (180:209), Routing Info: KeyAndMask:0xc3:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 6 for input:0:9:None:(0, 0), Slice: (180:209), Routing Info: KeyAndMask:0xc4:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 6 for input:0:11:None:(0, 0), Slice: (180:209), Routing Info: KeyAndMask:0xc5:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 6 for input:0:13:None:(0, 0), Slice: (180:209), Routing Info: KeyAndMask:0xc6:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 6 for input:0:15:None:(0, 0), Slice: (180:209), Routing Info: KeyAndMask:0xc7:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 7 for input:0:1:None:(0, 0), Slice: (210:239), Routing Info: KeyAndMask:0xe0:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 7 for input:0:3:None:(0, 0), Slice: (210:239), Routing Info: KeyAndMask:0xe1:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 7 for input:0:5:None:(0, 0), Slice: (210:239), Routing Info: KeyAndMask:0xe2:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 7 for input:0:7:None:(0, 0), Slice: (210:239), Routing Info: KeyAndMask:0xe3:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 7 for input:0:9:None:(0, 0), Slice: (210:239), Routing Info: KeyAndMask:0xe4:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 7 for input:0:11:None:(0, 0), Slice: (210:239), Routing Info: KeyAndMask:0xe5:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 7 for input:0:13:None:(0, 0), Slice: (210:239), Routing Info: KeyAndMask:0xe6:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 7 for input:0:15:None:(0, 0), Slice: (210:239), Routing Info: KeyAndMask:0xe7:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 8 for input:0:1:None:(0, 0), Slice: (240:269), Routing Info: KeyAndMask:0x100:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 8 for input:0:3:None:(0, 0), Slice: (240:269), Routing Info: KeyAndMask:0x101:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 8 for input:0:5:None:(0, 0), Slice: (240:269), Routing Info: KeyAndMask:0x102:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 8 for input:0:7:None:(0, 0), Slice: (240:269), Routing Info: KeyAndMask:0x103:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 8 for input:0:9:None:(0, 0), Slice: (240:269), Routing Info: KeyAndMask:0x104:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 8 for input:0:11:None:(0, 0), Slice: (240:269), Routing Info: KeyAndMask:0x105:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 8 for input:0:13:None:(0, 0), Slice: (240:269), Routing Info: KeyAndMask:0x106:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 8 for input:0:15:None:(0, 0), Slice: (240:269), Routing Info: KeyAndMask:0x107:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 9 for input:0:1:None:(0, 0), Slice: (270:299), Routing Info: KeyAndMask:0x120:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 9 for input:0:3:None:(0, 0), Slice: (270:299), Routing Info: KeyAndMask:0x121:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 9 for input:0:5:None:(0, 0), Slice: (270:299), Routing Info: KeyAndMask:0x122:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 9 for input:0:7:None:(0, 0), Slice: (270:299), Routing Info: KeyAndMask:0x123:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 9 for input:0:9:None:(0, 0), Slice: (270:299), Routing Info: KeyAndMask:0x124:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 9 for input:0:11:None:(0, 0), Slice: (270:299), Routing Info: KeyAndMask:0x125:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 9 for input:0:13:None:(0, 0), Slice: (270:299), Routing Info: KeyAndMask:0x126:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 9 for input:0:15:None:(0, 0), Slice: (270:299), Routing Info: KeyAndMask:0x127:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 10 for input:0:1:None:(0, 0), Slice: (300:329), Routing Info: KeyAndMask:0x140:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 10 for input:0:3:None:(0, 0), Slice: (300:329), Routing Info: KeyAndMask:0x141:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 10 for input:0:5:None:(0, 0), Slice: (300:329), Routing Info: KeyAndMask:0x142:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 10 for input:0:7:None:(0, 0), Slice: (300:329), Routing Info: KeyAndMask:0x143:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 10 for input:0:9:None:(0, 0), Slice: (300:329), Routing Info: KeyAndMask:0x144:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 10 for input:0:11:None:(0, 0), Slice: (300:329), Routing Info: KeyAndMask:0x145:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 10 for input:0:13:None:(0, 0), Slice: (300:329), Routing Info: KeyAndMask:0x146:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 10 for input:0:15:None:(0, 0), Slice: (300:329), Routing Info: KeyAndMask:0x147:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 11 for input:0:1:None:(0, 0), Slice: (330:359), Routing Info: KeyAndMask:0x160:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 11 for input:0:3:None:(0, 0), Slice: (330:359), Routing Info: KeyAndMask:0x161:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 11 for input:0:5:None:(0, 0), Slice: (330:359), Routing Info: KeyAndMask:0x162:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 11 for input:0:7:None:(0, 0), Slice: (330:359), Routing Info: KeyAndMask:0x163:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 11 for input:0:9:None:(0, 0), Slice: (330:359), Routing Info: KeyAndMask:0x164:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 11 for input:0:11:None:(0, 0), Slice: (330:359), Routing Info: KeyAndMask:0x165:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 11 for input:0:13:None:(0, 0), Slice: (330:359), Routing Info: KeyAndMask:0x166:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 11 for input:0:15:None:(0, 0), Slice: (330:359), Routing Info: KeyAndMask:0x167:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 12 for input:0:1:None:(0, 0), Slice: (360:389), Routing Info: KeyAndMask:0x180:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 12 for input:0:3:None:(0, 0), Slice: (360:389), Routing Info: KeyAndMask:0x181:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 12 for input:0:5:None:(0, 0), Slice: (360:389), Routing Info: KeyAndMask:0x182:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 12 for input:0:7:None:(0, 0), Slice: (360:389), Routing Info: KeyAndMask:0x183:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 12 for input:0:9:None:(0, 0), Slice: (360:389), Routing Info: KeyAndMask:0x184:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 12 for input:0:11:None:(0, 0), Slice: (360:389), Routing Info: KeyAndMask:0x185:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 12 for input:0:13:None:(0, 0), Slice: (360:389), Routing Info: KeyAndMask:0x186:0xffffffe7
+    Machine Vertex: Incoming Machine vertex 12 for input:0:15:None:(0, 0), Slice: (360:389), Routing Info: KeyAndMask:0x187:0xffffffe7
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS28, Routing Info: KeyAndMask:0xffffff27:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff27:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS37, Routing Info: KeyAndMask:0xffffff30:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff30:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS32, Routing Info: KeyAndMask:0xffffffb3:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb3:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS41, Routing Info: KeyAndMask:0xffffff34:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff34:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS34, Routing Info: KeyAndMask:0xffffffb5:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb5:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS50, Routing Info: KeyAndMask:0xffffff50:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff50:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS24, Routing Info: KeyAndMask:0xffffff23:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff23:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS38, Routing Info: KeyAndMask:0xffffff31:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff31:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS52, Routing Info: KeyAndMask:0xffffff61:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff61:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS26, Routing Info: KeyAndMask:0xffffff25:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff25:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS6, Routing Info: KeyAndMask:0xffffff91:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff91:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS51, Routing Info: KeyAndMask:0xffffff60:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff60:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS57, Routing Info: KeyAndMask:0xffffff72:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff72:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS58, Routing Info: KeyAndMask:0xffffff73:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff73:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS3, Routing Info: KeyAndMask:0xffffff83:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff83:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS0, Routing Info: KeyAndMask:0xffffff80:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff80:0xffffffff
+Vertex: middle with 400 atoms
+    Partition: SPIKE, Routing Info: KeyAndMask:0x400:0xfffffe00
+    Machine Vertex: middle(0:31), Slice: (0:31), Routing Info: KeyAndMask:0x400:0xffffffe0
+    Machine Vertex: middle(32:63), Slice: (32:63), Routing Info: KeyAndMask:0x420:0xffffffe0
+    Machine Vertex: middle(64:95), Slice: (64:95), Routing Info: KeyAndMask:0x440:0xffffffe0
+    Machine Vertex: middle(96:127), Slice: (96:127), Routing Info: KeyAndMask:0x460:0xffffffe0
+    Machine Vertex: middle(128:159), Slice: (128:159), Routing Info: KeyAndMask:0x480:0xffffffe0
+    Machine Vertex: middle(160:191), Slice: (160:191), Routing Info: KeyAndMask:0x4a0:0xffffffe0
+    Machine Vertex: middle(192:223), Slice: (192:223), Routing Info: KeyAndMask:0x4c0:0xffffffe0
+    Machine Vertex: middle(224:255), Slice: (224:255), Routing Info: KeyAndMask:0x4e0:0xffffffe0
+    Machine Vertex: middle(256:287), Slice: (256:287), Routing Info: KeyAndMask:0x500:0xffffffe0
+    Machine Vertex: middle(288:319), Slice: (288:319), Routing Info: KeyAndMask:0x520:0xffffffe0
+    Machine Vertex: middle(320:351), Slice: (320:351), Routing Info: KeyAndMask:0x540:0xffffffe0
+    Machine Vertex: middle(352:383), Slice: (352:383), Routing Info: KeyAndMask:0x560:0xffffffe0
+    Machine Vertex: middle(384:399), Slice: (384:399), Routing Info: KeyAndMask:0x580:0xffffffe0
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS10, Routing Info: KeyAndMask:0xffffff95:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff95:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS30, Routing Info: KeyAndMask:0xffffffb1:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb1:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS5, Routing Info: KeyAndMask:0xffffff90:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff90:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS36, Routing Info: KeyAndMask:0xffffffb7:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb7:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS40, Routing Info: KeyAndMask:0xffffff33:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff33:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS20, Routing Info: KeyAndMask:0xffffff17:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff17:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS35, Routing Info: KeyAndMask:0xffffffb6:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb6:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS60, Routing Info: KeyAndMask:0xfffffe03:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xfffffe03:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS17, Routing Info: KeyAndMask:0xffffff14:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff14:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS54, Routing Info: KeyAndMask:0xffffff63:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff63:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS18, Routing Info: KeyAndMask:0xffffff15:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff15:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS45, Routing Info: KeyAndMask:0xffffff40:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff40:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS31, Routing Info: KeyAndMask:0xffffffb2:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb2:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS33, Routing Info: KeyAndMask:0xffffffb4:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb4:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS15, Routing Info: KeyAndMask:0xffffff12:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff12:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS2, Routing Info: KeyAndMask:0xffffff82:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff82:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS22, Routing Info: KeyAndMask:0xffffff21:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff21:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS42, Routing Info: KeyAndMask:0xffffff35:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff35:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS59, Routing Info: KeyAndMask:0xfffffe02:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xfffffe02:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS29, Routing Info: KeyAndMask:0xffffffb0:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb0:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS1, Routing Info: KeyAndMask:0xffffff81:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff81:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS11, Routing Info: KeyAndMask:0xffffff96:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff96:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS55, Routing Info: KeyAndMask:0xffffff70:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff70:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS8, Routing Info: KeyAndMask:0xffffff93:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff93:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS56, Routing Info: KeyAndMask:0xffffff71:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff71:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS7, Routing Info: KeyAndMask:0xffffff92:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff92:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS48, Routing Info: KeyAndMask:0xffffff43:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff43:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS49, Routing Info: KeyAndMask:0xfffffe11:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xfffffe11:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS53, Routing Info: KeyAndMask:0xffffff62:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff62:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS13, Routing Info: KeyAndMask:0xffffff10:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff10:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS43, Routing Info: KeyAndMask:0xffffff36:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff36:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS25, Routing Info: KeyAndMask:0xffffff24:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff24:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS23, Routing Info: KeyAndMask:0xffffff22:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff22:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS44, Routing Info: KeyAndMask:0xffffff37:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff37:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS39, Routing Info: KeyAndMask:0xffffff32:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff32:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS4, Routing Info: KeyAndMask:0xfffffe10:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xfffffe10:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS12, Routing Info: KeyAndMask:0xffffff97:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff97:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS14, Routing Info: KeyAndMask:0xffffff11:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff11:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS21, Routing Info: KeyAndMask:0xffffff20:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff20:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS16, Routing Info: KeyAndMask:0xffffff13:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff13:0xffffffff

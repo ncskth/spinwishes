@@ -1,0 +1,651 @@
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS3, Routing Info: KeyAndMask:0xffffff83:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff83:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS33, Routing Info: KeyAndMask:0xffffffb4:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb4:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS6, Routing Info: KeyAndMask:0xffffff91:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff91:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS0, Routing Info: KeyAndMask:0xffffff80:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff80:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS15, Routing Info: KeyAndMask:0xffffff12:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff12:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS1, Routing Info: KeyAndMask:0xffffff81:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff81:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS53, Routing Info: KeyAndMask:0xffffff62:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff62:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS57, Routing Info: KeyAndMask:0xffffff72:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff72:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS23, Routing Info: KeyAndMask:0xffffff22:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff22:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS45, Routing Info: KeyAndMask:0xffffff40:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff40:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS58, Routing Info: KeyAndMask:0xffffff73:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff73:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS26, Routing Info: KeyAndMask:0xffffff25:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff25:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS34, Routing Info: KeyAndMask:0xffffffb5:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb5:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS42, Routing Info: KeyAndMask:0xffffff35:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff35:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS10, Routing Info: KeyAndMask:0xffffff95:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff95:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS54, Routing Info: KeyAndMask:0xffffff63:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff63:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS11, Routing Info: KeyAndMask:0xffffff96:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff96:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS20, Routing Info: KeyAndMask:0xffffff17:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff17:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS38, Routing Info: KeyAndMask:0xffffff31:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff31:0xffffffff
+Vertex: SPIFInputDevice_1
+    Partition: SPIKE, Routing Info: KeyAndMask:0x0:0xffffe000
+    Machine Vertex: Incoming Machine vertex 0 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (0:126), Routing Info: KeyAndMask:0x0:0xffffff87
+    Machine Vertex: Incoming Machine vertex 0 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (0:126), Routing Info: KeyAndMask:0x1:0xffffff87
+    Machine Vertex: Incoming Machine vertex 0 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (0:126), Routing Info: KeyAndMask:0x2:0xffffff87
+    Machine Vertex: Incoming Machine vertex 0 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (0:126), Routing Info: KeyAndMask:0x3:0xffffff87
+    Machine Vertex: Incoming Machine vertex 0 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (0:126), Routing Info: KeyAndMask:0x4:0xffffff87
+    Machine Vertex: Incoming Machine vertex 0 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (0:126), Routing Info: KeyAndMask:0x5:0xffffff87
+    Machine Vertex: Incoming Machine vertex 0 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (0:126), Routing Info: KeyAndMask:0x6:0xffffff87
+    Machine Vertex: Incoming Machine vertex 0 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (0:126), Routing Info: KeyAndMask:0x7:0xffffff87
+    Machine Vertex: Incoming Machine vertex 1 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (127:253), Routing Info: KeyAndMask:0x80:0xffffff87
+    Machine Vertex: Incoming Machine vertex 1 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (127:253), Routing Info: KeyAndMask:0x81:0xffffff87
+    Machine Vertex: Incoming Machine vertex 1 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (127:253), Routing Info: KeyAndMask:0x82:0xffffff87
+    Machine Vertex: Incoming Machine vertex 1 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (127:253), Routing Info: KeyAndMask:0x83:0xffffff87
+    Machine Vertex: Incoming Machine vertex 1 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (127:253), Routing Info: KeyAndMask:0x84:0xffffff87
+    Machine Vertex: Incoming Machine vertex 1 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (127:253), Routing Info: KeyAndMask:0x85:0xffffff87
+    Machine Vertex: Incoming Machine vertex 1 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (127:253), Routing Info: KeyAndMask:0x86:0xffffff87
+    Machine Vertex: Incoming Machine vertex 1 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (127:253), Routing Info: KeyAndMask:0x87:0xffffff87
+    Machine Vertex: Incoming Machine vertex 2 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (254:380), Routing Info: KeyAndMask:0x100:0xffffff87
+    Machine Vertex: Incoming Machine vertex 2 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (254:380), Routing Info: KeyAndMask:0x101:0xffffff87
+    Machine Vertex: Incoming Machine vertex 2 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (254:380), Routing Info: KeyAndMask:0x102:0xffffff87
+    Machine Vertex: Incoming Machine vertex 2 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (254:380), Routing Info: KeyAndMask:0x103:0xffffff87
+    Machine Vertex: Incoming Machine vertex 2 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (254:380), Routing Info: KeyAndMask:0x104:0xffffff87
+    Machine Vertex: Incoming Machine vertex 2 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (254:380), Routing Info: KeyAndMask:0x105:0xffffff87
+    Machine Vertex: Incoming Machine vertex 2 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (254:380), Routing Info: KeyAndMask:0x106:0xffffff87
+    Machine Vertex: Incoming Machine vertex 2 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (254:380), Routing Info: KeyAndMask:0x107:0xffffff87
+    Machine Vertex: Incoming Machine vertex 3 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (381:507), Routing Info: KeyAndMask:0x180:0xffffff87
+    Machine Vertex: Incoming Machine vertex 3 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (381:507), Routing Info: KeyAndMask:0x181:0xffffff87
+    Machine Vertex: Incoming Machine vertex 3 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (381:507), Routing Info: KeyAndMask:0x182:0xffffff87
+    Machine Vertex: Incoming Machine vertex 3 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (381:507), Routing Info: KeyAndMask:0x183:0xffffff87
+    Machine Vertex: Incoming Machine vertex 3 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (381:507), Routing Info: KeyAndMask:0x184:0xffffff87
+    Machine Vertex: Incoming Machine vertex 3 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (381:507), Routing Info: KeyAndMask:0x185:0xffffff87
+    Machine Vertex: Incoming Machine vertex 3 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (381:507), Routing Info: KeyAndMask:0x186:0xffffff87
+    Machine Vertex: Incoming Machine vertex 3 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (381:507), Routing Info: KeyAndMask:0x187:0xffffff87
+    Machine Vertex: Incoming Machine vertex 4 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (508:634), Routing Info: KeyAndMask:0x200:0xffffff87
+    Machine Vertex: Incoming Machine vertex 4 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (508:634), Routing Info: KeyAndMask:0x201:0xffffff87
+    Machine Vertex: Incoming Machine vertex 4 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (508:634), Routing Info: KeyAndMask:0x202:0xffffff87
+    Machine Vertex: Incoming Machine vertex 4 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (508:634), Routing Info: KeyAndMask:0x203:0xffffff87
+    Machine Vertex: Incoming Machine vertex 4 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (508:634), Routing Info: KeyAndMask:0x204:0xffffff87
+    Machine Vertex: Incoming Machine vertex 4 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (508:634), Routing Info: KeyAndMask:0x205:0xffffff87
+    Machine Vertex: Incoming Machine vertex 4 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (508:634), Routing Info: KeyAndMask:0x206:0xffffff87
+    Machine Vertex: Incoming Machine vertex 4 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (508:634), Routing Info: KeyAndMask:0x207:0xffffff87
+    Machine Vertex: Incoming Machine vertex 5 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (635:761), Routing Info: KeyAndMask:0x280:0xffffff87
+    Machine Vertex: Incoming Machine vertex 5 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (635:761), Routing Info: KeyAndMask:0x281:0xffffff87
+    Machine Vertex: Incoming Machine vertex 5 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (635:761), Routing Info: KeyAndMask:0x282:0xffffff87
+    Machine Vertex: Incoming Machine vertex 5 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (635:761), Routing Info: KeyAndMask:0x283:0xffffff87
+    Machine Vertex: Incoming Machine vertex 5 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (635:761), Routing Info: KeyAndMask:0x284:0xffffff87
+    Machine Vertex: Incoming Machine vertex 5 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (635:761), Routing Info: KeyAndMask:0x285:0xffffff87
+    Machine Vertex: Incoming Machine vertex 5 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (635:761), Routing Info: KeyAndMask:0x286:0xffffff87
+    Machine Vertex: Incoming Machine vertex 5 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (635:761), Routing Info: KeyAndMask:0x287:0xffffff87
+    Machine Vertex: Incoming Machine vertex 6 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (762:888), Routing Info: KeyAndMask:0x300:0xffffff87
+    Machine Vertex: Incoming Machine vertex 6 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (762:888), Routing Info: KeyAndMask:0x301:0xffffff87
+    Machine Vertex: Incoming Machine vertex 6 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (762:888), Routing Info: KeyAndMask:0x302:0xffffff87
+    Machine Vertex: Incoming Machine vertex 6 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (762:888), Routing Info: KeyAndMask:0x303:0xffffff87
+    Machine Vertex: Incoming Machine vertex 6 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (762:888), Routing Info: KeyAndMask:0x304:0xffffff87
+    Machine Vertex: Incoming Machine vertex 6 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (762:888), Routing Info: KeyAndMask:0x305:0xffffff87
+    Machine Vertex: Incoming Machine vertex 6 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (762:888), Routing Info: KeyAndMask:0x306:0xffffff87
+    Machine Vertex: Incoming Machine vertex 6 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (762:888), Routing Info: KeyAndMask:0x307:0xffffff87
+    Machine Vertex: Incoming Machine vertex 7 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (889:1015), Routing Info: KeyAndMask:0x380:0xffffff87
+    Machine Vertex: Incoming Machine vertex 7 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (889:1015), Routing Info: KeyAndMask:0x381:0xffffff87
+    Machine Vertex: Incoming Machine vertex 7 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (889:1015), Routing Info: KeyAndMask:0x382:0xffffff87
+    Machine Vertex: Incoming Machine vertex 7 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (889:1015), Routing Info: KeyAndMask:0x383:0xffffff87
+    Machine Vertex: Incoming Machine vertex 7 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (889:1015), Routing Info: KeyAndMask:0x384:0xffffff87
+    Machine Vertex: Incoming Machine vertex 7 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (889:1015), Routing Info: KeyAndMask:0x385:0xffffff87
+    Machine Vertex: Incoming Machine vertex 7 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (889:1015), Routing Info: KeyAndMask:0x386:0xffffff87
+    Machine Vertex: Incoming Machine vertex 7 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (889:1015), Routing Info: KeyAndMask:0x387:0xffffff87
+    Machine Vertex: Incoming Machine vertex 8 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (1016:1142), Routing Info: KeyAndMask:0x400:0xffffff87
+    Machine Vertex: Incoming Machine vertex 8 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (1016:1142), Routing Info: KeyAndMask:0x401:0xffffff87
+    Machine Vertex: Incoming Machine vertex 8 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (1016:1142), Routing Info: KeyAndMask:0x402:0xffffff87
+    Machine Vertex: Incoming Machine vertex 8 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (1016:1142), Routing Info: KeyAndMask:0x403:0xffffff87
+    Machine Vertex: Incoming Machine vertex 8 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (1016:1142), Routing Info: KeyAndMask:0x404:0xffffff87
+    Machine Vertex: Incoming Machine vertex 8 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (1016:1142), Routing Info: KeyAndMask:0x405:0xffffff87
+    Machine Vertex: Incoming Machine vertex 8 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (1016:1142), Routing Info: KeyAndMask:0x406:0xffffff87
+    Machine Vertex: Incoming Machine vertex 8 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (1016:1142), Routing Info: KeyAndMask:0x407:0xffffff87
+    Machine Vertex: Incoming Machine vertex 9 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (1143:1269), Routing Info: KeyAndMask:0x480:0xffffff87
+    Machine Vertex: Incoming Machine vertex 9 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (1143:1269), Routing Info: KeyAndMask:0x481:0xffffff87
+    Machine Vertex: Incoming Machine vertex 9 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (1143:1269), Routing Info: KeyAndMask:0x482:0xffffff87
+    Machine Vertex: Incoming Machine vertex 9 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (1143:1269), Routing Info: KeyAndMask:0x483:0xffffff87
+    Machine Vertex: Incoming Machine vertex 9 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (1143:1269), Routing Info: KeyAndMask:0x484:0xffffff87
+    Machine Vertex: Incoming Machine vertex 9 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (1143:1269), Routing Info: KeyAndMask:0x485:0xffffff87
+    Machine Vertex: Incoming Machine vertex 9 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (1143:1269), Routing Info: KeyAndMask:0x486:0xffffff87
+    Machine Vertex: Incoming Machine vertex 9 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (1143:1269), Routing Info: KeyAndMask:0x487:0xffffff87
+    Machine Vertex: Incoming Machine vertex 10 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (1270:1396), Routing Info: KeyAndMask:0x500:0xffffff87
+    Machine Vertex: Incoming Machine vertex 10 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (1270:1396), Routing Info: KeyAndMask:0x501:0xffffff87
+    Machine Vertex: Incoming Machine vertex 10 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (1270:1396), Routing Info: KeyAndMask:0x502:0xffffff87
+    Machine Vertex: Incoming Machine vertex 10 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (1270:1396), Routing Info: KeyAndMask:0x503:0xffffff87
+    Machine Vertex: Incoming Machine vertex 10 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (1270:1396), Routing Info: KeyAndMask:0x504:0xffffff87
+    Machine Vertex: Incoming Machine vertex 10 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (1270:1396), Routing Info: KeyAndMask:0x505:0xffffff87
+    Machine Vertex: Incoming Machine vertex 10 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (1270:1396), Routing Info: KeyAndMask:0x506:0xffffff87
+    Machine Vertex: Incoming Machine vertex 10 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (1270:1396), Routing Info: KeyAndMask:0x507:0xffffff87
+    Machine Vertex: Incoming Machine vertex 11 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (1397:1523), Routing Info: KeyAndMask:0x580:0xffffff87
+    Machine Vertex: Incoming Machine vertex 11 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (1397:1523), Routing Info: KeyAndMask:0x581:0xffffff87
+    Machine Vertex: Incoming Machine vertex 11 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (1397:1523), Routing Info: KeyAndMask:0x582:0xffffff87
+    Machine Vertex: Incoming Machine vertex 11 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (1397:1523), Routing Info: KeyAndMask:0x583:0xffffff87
+    Machine Vertex: Incoming Machine vertex 11 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (1397:1523), Routing Info: KeyAndMask:0x584:0xffffff87
+    Machine Vertex: Incoming Machine vertex 11 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (1397:1523), Routing Info: KeyAndMask:0x585:0xffffff87
+    Machine Vertex: Incoming Machine vertex 11 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (1397:1523), Routing Info: KeyAndMask:0x586:0xffffff87
+    Machine Vertex: Incoming Machine vertex 11 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (1397:1523), Routing Info: KeyAndMask:0x587:0xffffff87
+    Machine Vertex: Incoming Machine vertex 12 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (1524:1650), Routing Info: KeyAndMask:0x600:0xffffff87
+    Machine Vertex: Incoming Machine vertex 12 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (1524:1650), Routing Info: KeyAndMask:0x601:0xffffff87
+    Machine Vertex: Incoming Machine vertex 12 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (1524:1650), Routing Info: KeyAndMask:0x602:0xffffff87
+    Machine Vertex: Incoming Machine vertex 12 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (1524:1650), Routing Info: KeyAndMask:0x603:0xffffff87
+    Machine Vertex: Incoming Machine vertex 12 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (1524:1650), Routing Info: KeyAndMask:0x604:0xffffff87
+    Machine Vertex: Incoming Machine vertex 12 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (1524:1650), Routing Info: KeyAndMask:0x605:0xffffff87
+    Machine Vertex: Incoming Machine vertex 12 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (1524:1650), Routing Info: KeyAndMask:0x606:0xffffff87
+    Machine Vertex: Incoming Machine vertex 12 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (1524:1650), Routing Info: KeyAndMask:0x607:0xffffff87
+    Machine Vertex: Incoming Machine vertex 13 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (1651:1777), Routing Info: KeyAndMask:0x680:0xffffff87
+    Machine Vertex: Incoming Machine vertex 13 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (1651:1777), Routing Info: KeyAndMask:0x681:0xffffff87
+    Machine Vertex: Incoming Machine vertex 13 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (1651:1777), Routing Info: KeyAndMask:0x682:0xffffff87
+    Machine Vertex: Incoming Machine vertex 13 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (1651:1777), Routing Info: KeyAndMask:0x683:0xffffff87
+    Machine Vertex: Incoming Machine vertex 13 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (1651:1777), Routing Info: KeyAndMask:0x684:0xffffff87
+    Machine Vertex: Incoming Machine vertex 13 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (1651:1777), Routing Info: KeyAndMask:0x685:0xffffff87
+    Machine Vertex: Incoming Machine vertex 13 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (1651:1777), Routing Info: KeyAndMask:0x686:0xffffff87
+    Machine Vertex: Incoming Machine vertex 13 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (1651:1777), Routing Info: KeyAndMask:0x687:0xffffff87
+    Machine Vertex: Incoming Machine vertex 14 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (1778:1904), Routing Info: KeyAndMask:0x700:0xffffff87
+    Machine Vertex: Incoming Machine vertex 14 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (1778:1904), Routing Info: KeyAndMask:0x701:0xffffff87
+    Machine Vertex: Incoming Machine vertex 14 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (1778:1904), Routing Info: KeyAndMask:0x702:0xffffff87
+    Machine Vertex: Incoming Machine vertex 14 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (1778:1904), Routing Info: KeyAndMask:0x703:0xffffff87
+    Machine Vertex: Incoming Machine vertex 14 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (1778:1904), Routing Info: KeyAndMask:0x704:0xffffff87
+    Machine Vertex: Incoming Machine vertex 14 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (1778:1904), Routing Info: KeyAndMask:0x705:0xffffff87
+    Machine Vertex: Incoming Machine vertex 14 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (1778:1904), Routing Info: KeyAndMask:0x706:0xffffff87
+    Machine Vertex: Incoming Machine vertex 14 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (1778:1904), Routing Info: KeyAndMask:0x707:0xffffff87
+    Machine Vertex: Incoming Machine vertex 15 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (1905:2031), Routing Info: KeyAndMask:0x780:0xffffff87
+    Machine Vertex: Incoming Machine vertex 15 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (1905:2031), Routing Info: KeyAndMask:0x781:0xffffff87
+    Machine Vertex: Incoming Machine vertex 15 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (1905:2031), Routing Info: KeyAndMask:0x782:0xffffff87
+    Machine Vertex: Incoming Machine vertex 15 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (1905:2031), Routing Info: KeyAndMask:0x783:0xffffff87
+    Machine Vertex: Incoming Machine vertex 15 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (1905:2031), Routing Info: KeyAndMask:0x784:0xffffff87
+    Machine Vertex: Incoming Machine vertex 15 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (1905:2031), Routing Info: KeyAndMask:0x785:0xffffff87
+    Machine Vertex: Incoming Machine vertex 15 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (1905:2031), Routing Info: KeyAndMask:0x786:0xffffff87
+    Machine Vertex: Incoming Machine vertex 15 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (1905:2031), Routing Info: KeyAndMask:0x787:0xffffff87
+    Machine Vertex: Incoming Machine vertex 16 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (2032:2158), Routing Info: KeyAndMask:0x800:0xffffff87
+    Machine Vertex: Incoming Machine vertex 16 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (2032:2158), Routing Info: KeyAndMask:0x801:0xffffff87
+    Machine Vertex: Incoming Machine vertex 16 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (2032:2158), Routing Info: KeyAndMask:0x802:0xffffff87
+    Machine Vertex: Incoming Machine vertex 16 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (2032:2158), Routing Info: KeyAndMask:0x803:0xffffff87
+    Machine Vertex: Incoming Machine vertex 16 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (2032:2158), Routing Info: KeyAndMask:0x804:0xffffff87
+    Machine Vertex: Incoming Machine vertex 16 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (2032:2158), Routing Info: KeyAndMask:0x805:0xffffff87
+    Machine Vertex: Incoming Machine vertex 16 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (2032:2158), Routing Info: KeyAndMask:0x806:0xffffff87
+    Machine Vertex: Incoming Machine vertex 16 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (2032:2158), Routing Info: KeyAndMask:0x807:0xffffff87
+    Machine Vertex: Incoming Machine vertex 17 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (2159:2285), Routing Info: KeyAndMask:0x880:0xffffff87
+    Machine Vertex: Incoming Machine vertex 17 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (2159:2285), Routing Info: KeyAndMask:0x881:0xffffff87
+    Machine Vertex: Incoming Machine vertex 17 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (2159:2285), Routing Info: KeyAndMask:0x882:0xffffff87
+    Machine Vertex: Incoming Machine vertex 17 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (2159:2285), Routing Info: KeyAndMask:0x883:0xffffff87
+    Machine Vertex: Incoming Machine vertex 17 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (2159:2285), Routing Info: KeyAndMask:0x884:0xffffff87
+    Machine Vertex: Incoming Machine vertex 17 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (2159:2285), Routing Info: KeyAndMask:0x885:0xffffff87
+    Machine Vertex: Incoming Machine vertex 17 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (2159:2285), Routing Info: KeyAndMask:0x886:0xffffff87
+    Machine Vertex: Incoming Machine vertex 17 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (2159:2285), Routing Info: KeyAndMask:0x887:0xffffff87
+    Machine Vertex: Incoming Machine vertex 18 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (2286:2412), Routing Info: KeyAndMask:0x900:0xffffff87
+    Machine Vertex: Incoming Machine vertex 18 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (2286:2412), Routing Info: KeyAndMask:0x901:0xffffff87
+    Machine Vertex: Incoming Machine vertex 18 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (2286:2412), Routing Info: KeyAndMask:0x902:0xffffff87
+    Machine Vertex: Incoming Machine vertex 18 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (2286:2412), Routing Info: KeyAndMask:0x903:0xffffff87
+    Machine Vertex: Incoming Machine vertex 18 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (2286:2412), Routing Info: KeyAndMask:0x904:0xffffff87
+    Machine Vertex: Incoming Machine vertex 18 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (2286:2412), Routing Info: KeyAndMask:0x905:0xffffff87
+    Machine Vertex: Incoming Machine vertex 18 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (2286:2412), Routing Info: KeyAndMask:0x906:0xffffff87
+    Machine Vertex: Incoming Machine vertex 18 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (2286:2412), Routing Info: KeyAndMask:0x907:0xffffff87
+    Machine Vertex: Incoming Machine vertex 19 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (2413:2539), Routing Info: KeyAndMask:0x980:0xffffff87
+    Machine Vertex: Incoming Machine vertex 19 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (2413:2539), Routing Info: KeyAndMask:0x981:0xffffff87
+    Machine Vertex: Incoming Machine vertex 19 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (2413:2539), Routing Info: KeyAndMask:0x982:0xffffff87
+    Machine Vertex: Incoming Machine vertex 19 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (2413:2539), Routing Info: KeyAndMask:0x983:0xffffff87
+    Machine Vertex: Incoming Machine vertex 19 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (2413:2539), Routing Info: KeyAndMask:0x984:0xffffff87
+    Machine Vertex: Incoming Machine vertex 19 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (2413:2539), Routing Info: KeyAndMask:0x985:0xffffff87
+    Machine Vertex: Incoming Machine vertex 19 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (2413:2539), Routing Info: KeyAndMask:0x986:0xffffff87
+    Machine Vertex: Incoming Machine vertex 19 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (2413:2539), Routing Info: KeyAndMask:0x987:0xffffff87
+    Machine Vertex: Incoming Machine vertex 20 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (2540:2666), Routing Info: KeyAndMask:0xa00:0xffffff87
+    Machine Vertex: Incoming Machine vertex 20 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (2540:2666), Routing Info: KeyAndMask:0xa01:0xffffff87
+    Machine Vertex: Incoming Machine vertex 20 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (2540:2666), Routing Info: KeyAndMask:0xa02:0xffffff87
+    Machine Vertex: Incoming Machine vertex 20 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (2540:2666), Routing Info: KeyAndMask:0xa03:0xffffff87
+    Machine Vertex: Incoming Machine vertex 20 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (2540:2666), Routing Info: KeyAndMask:0xa04:0xffffff87
+    Machine Vertex: Incoming Machine vertex 20 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (2540:2666), Routing Info: KeyAndMask:0xa05:0xffffff87
+    Machine Vertex: Incoming Machine vertex 20 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (2540:2666), Routing Info: KeyAndMask:0xa06:0xffffff87
+    Machine Vertex: Incoming Machine vertex 20 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (2540:2666), Routing Info: KeyAndMask:0xa07:0xffffff87
+    Machine Vertex: Incoming Machine vertex 21 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (2667:2793), Routing Info: KeyAndMask:0xa80:0xffffff87
+    Machine Vertex: Incoming Machine vertex 21 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (2667:2793), Routing Info: KeyAndMask:0xa81:0xffffff87
+    Machine Vertex: Incoming Machine vertex 21 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (2667:2793), Routing Info: KeyAndMask:0xa82:0xffffff87
+    Machine Vertex: Incoming Machine vertex 21 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (2667:2793), Routing Info: KeyAndMask:0xa83:0xffffff87
+    Machine Vertex: Incoming Machine vertex 21 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (2667:2793), Routing Info: KeyAndMask:0xa84:0xffffff87
+    Machine Vertex: Incoming Machine vertex 21 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (2667:2793), Routing Info: KeyAndMask:0xa85:0xffffff87
+    Machine Vertex: Incoming Machine vertex 21 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (2667:2793), Routing Info: KeyAndMask:0xa86:0xffffff87
+    Machine Vertex: Incoming Machine vertex 21 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (2667:2793), Routing Info: KeyAndMask:0xa87:0xffffff87
+    Machine Vertex: Incoming Machine vertex 22 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (2794:2920), Routing Info: KeyAndMask:0xb00:0xffffff87
+    Machine Vertex: Incoming Machine vertex 22 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (2794:2920), Routing Info: KeyAndMask:0xb01:0xffffff87
+    Machine Vertex: Incoming Machine vertex 22 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (2794:2920), Routing Info: KeyAndMask:0xb02:0xffffff87
+    Machine Vertex: Incoming Machine vertex 22 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (2794:2920), Routing Info: KeyAndMask:0xb03:0xffffff87
+    Machine Vertex: Incoming Machine vertex 22 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (2794:2920), Routing Info: KeyAndMask:0xb04:0xffffff87
+    Machine Vertex: Incoming Machine vertex 22 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (2794:2920), Routing Info: KeyAndMask:0xb05:0xffffff87
+    Machine Vertex: Incoming Machine vertex 22 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (2794:2920), Routing Info: KeyAndMask:0xb06:0xffffff87
+    Machine Vertex: Incoming Machine vertex 22 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (2794:2920), Routing Info: KeyAndMask:0xb07:0xffffff87
+    Machine Vertex: Incoming Machine vertex 23 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (2921:3047), Routing Info: KeyAndMask:0xb80:0xffffff87
+    Machine Vertex: Incoming Machine vertex 23 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (2921:3047), Routing Info: KeyAndMask:0xb81:0xffffff87
+    Machine Vertex: Incoming Machine vertex 23 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (2921:3047), Routing Info: KeyAndMask:0xb82:0xffffff87
+    Machine Vertex: Incoming Machine vertex 23 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (2921:3047), Routing Info: KeyAndMask:0xb83:0xffffff87
+    Machine Vertex: Incoming Machine vertex 23 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (2921:3047), Routing Info: KeyAndMask:0xb84:0xffffff87
+    Machine Vertex: Incoming Machine vertex 23 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (2921:3047), Routing Info: KeyAndMask:0xb85:0xffffff87
+    Machine Vertex: Incoming Machine vertex 23 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (2921:3047), Routing Info: KeyAndMask:0xb86:0xffffff87
+    Machine Vertex: Incoming Machine vertex 23 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (2921:3047), Routing Info: KeyAndMask:0xb87:0xffffff87
+    Machine Vertex: Incoming Machine vertex 24 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (3048:3174), Routing Info: KeyAndMask:0xc00:0xffffff87
+    Machine Vertex: Incoming Machine vertex 24 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (3048:3174), Routing Info: KeyAndMask:0xc01:0xffffff87
+    Machine Vertex: Incoming Machine vertex 24 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (3048:3174), Routing Info: KeyAndMask:0xc02:0xffffff87
+    Machine Vertex: Incoming Machine vertex 24 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (3048:3174), Routing Info: KeyAndMask:0xc03:0xffffff87
+    Machine Vertex: Incoming Machine vertex 24 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (3048:3174), Routing Info: KeyAndMask:0xc04:0xffffff87
+    Machine Vertex: Incoming Machine vertex 24 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (3048:3174), Routing Info: KeyAndMask:0xc05:0xffffff87
+    Machine Vertex: Incoming Machine vertex 24 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (3048:3174), Routing Info: KeyAndMask:0xc06:0xffffff87
+    Machine Vertex: Incoming Machine vertex 24 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (3048:3174), Routing Info: KeyAndMask:0xc07:0xffffff87
+    Machine Vertex: Incoming Machine vertex 25 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (3175:3301), Routing Info: KeyAndMask:0xc80:0xffffff87
+    Machine Vertex: Incoming Machine vertex 25 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (3175:3301), Routing Info: KeyAndMask:0xc81:0xffffff87
+    Machine Vertex: Incoming Machine vertex 25 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (3175:3301), Routing Info: KeyAndMask:0xc82:0xffffff87
+    Machine Vertex: Incoming Machine vertex 25 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (3175:3301), Routing Info: KeyAndMask:0xc83:0xffffff87
+    Machine Vertex: Incoming Machine vertex 25 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (3175:3301), Routing Info: KeyAndMask:0xc84:0xffffff87
+    Machine Vertex: Incoming Machine vertex 25 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (3175:3301), Routing Info: KeyAndMask:0xc85:0xffffff87
+    Machine Vertex: Incoming Machine vertex 25 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (3175:3301), Routing Info: KeyAndMask:0xc86:0xffffff87
+    Machine Vertex: Incoming Machine vertex 25 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (3175:3301), Routing Info: KeyAndMask:0xc87:0xffffff87
+    Machine Vertex: Incoming Machine vertex 26 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (3302:3428), Routing Info: KeyAndMask:0xd00:0xffffff87
+    Machine Vertex: Incoming Machine vertex 26 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (3302:3428), Routing Info: KeyAndMask:0xd01:0xffffff87
+    Machine Vertex: Incoming Machine vertex 26 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (3302:3428), Routing Info: KeyAndMask:0xd02:0xffffff87
+    Machine Vertex: Incoming Machine vertex 26 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (3302:3428), Routing Info: KeyAndMask:0xd03:0xffffff87
+    Machine Vertex: Incoming Machine vertex 26 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (3302:3428), Routing Info: KeyAndMask:0xd04:0xffffff87
+    Machine Vertex: Incoming Machine vertex 26 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (3302:3428), Routing Info: KeyAndMask:0xd05:0xffffff87
+    Machine Vertex: Incoming Machine vertex 26 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (3302:3428), Routing Info: KeyAndMask:0xd06:0xffffff87
+    Machine Vertex: Incoming Machine vertex 26 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (3302:3428), Routing Info: KeyAndMask:0xd07:0xffffff87
+    Machine Vertex: Incoming Machine vertex 27 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (3429:3555), Routing Info: KeyAndMask:0xd80:0xffffff87
+    Machine Vertex: Incoming Machine vertex 27 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (3429:3555), Routing Info: KeyAndMask:0xd81:0xffffff87
+    Machine Vertex: Incoming Machine vertex 27 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (3429:3555), Routing Info: KeyAndMask:0xd82:0xffffff87
+    Machine Vertex: Incoming Machine vertex 27 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (3429:3555), Routing Info: KeyAndMask:0xd83:0xffffff87
+    Machine Vertex: Incoming Machine vertex 27 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (3429:3555), Routing Info: KeyAndMask:0xd84:0xffffff87
+    Machine Vertex: Incoming Machine vertex 27 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (3429:3555), Routing Info: KeyAndMask:0xd85:0xffffff87
+    Machine Vertex: Incoming Machine vertex 27 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (3429:3555), Routing Info: KeyAndMask:0xd86:0xffffff87
+    Machine Vertex: Incoming Machine vertex 27 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (3429:3555), Routing Info: KeyAndMask:0xd87:0xffffff87
+    Machine Vertex: Incoming Machine vertex 28 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (3556:3682), Routing Info: KeyAndMask:0xe00:0xffffff87
+    Machine Vertex: Incoming Machine vertex 28 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (3556:3682), Routing Info: KeyAndMask:0xe01:0xffffff87
+    Machine Vertex: Incoming Machine vertex 28 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (3556:3682), Routing Info: KeyAndMask:0xe02:0xffffff87
+    Machine Vertex: Incoming Machine vertex 28 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (3556:3682), Routing Info: KeyAndMask:0xe03:0xffffff87
+    Machine Vertex: Incoming Machine vertex 28 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (3556:3682), Routing Info: KeyAndMask:0xe04:0xffffff87
+    Machine Vertex: Incoming Machine vertex 28 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (3556:3682), Routing Info: KeyAndMask:0xe05:0xffffff87
+    Machine Vertex: Incoming Machine vertex 28 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (3556:3682), Routing Info: KeyAndMask:0xe06:0xffffff87
+    Machine Vertex: Incoming Machine vertex 28 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (3556:3682), Routing Info: KeyAndMask:0xe07:0xffffff87
+    Machine Vertex: Incoming Machine vertex 29 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (3683:3809), Routing Info: KeyAndMask:0xe80:0xffffff87
+    Machine Vertex: Incoming Machine vertex 29 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (3683:3809), Routing Info: KeyAndMask:0xe81:0xffffff87
+    Machine Vertex: Incoming Machine vertex 29 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (3683:3809), Routing Info: KeyAndMask:0xe82:0xffffff87
+    Machine Vertex: Incoming Machine vertex 29 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (3683:3809), Routing Info: KeyAndMask:0xe83:0xffffff87
+    Machine Vertex: Incoming Machine vertex 29 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (3683:3809), Routing Info: KeyAndMask:0xe84:0xffffff87
+    Machine Vertex: Incoming Machine vertex 29 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (3683:3809), Routing Info: KeyAndMask:0xe85:0xffffff87
+    Machine Vertex: Incoming Machine vertex 29 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (3683:3809), Routing Info: KeyAndMask:0xe86:0xffffff87
+    Machine Vertex: Incoming Machine vertex 29 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (3683:3809), Routing Info: KeyAndMask:0xe87:0xffffff87
+    Machine Vertex: Incoming Machine vertex 30 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (3810:3936), Routing Info: KeyAndMask:0xf00:0xffffff87
+    Machine Vertex: Incoming Machine vertex 30 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (3810:3936), Routing Info: KeyAndMask:0xf01:0xffffff87
+    Machine Vertex: Incoming Machine vertex 30 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (3810:3936), Routing Info: KeyAndMask:0xf02:0xffffff87
+    Machine Vertex: Incoming Machine vertex 30 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (3810:3936), Routing Info: KeyAndMask:0xf03:0xffffff87
+    Machine Vertex: Incoming Machine vertex 30 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (3810:3936), Routing Info: KeyAndMask:0xf04:0xffffff87
+    Machine Vertex: Incoming Machine vertex 30 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (3810:3936), Routing Info: KeyAndMask:0xf05:0xffffff87
+    Machine Vertex: Incoming Machine vertex 30 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (3810:3936), Routing Info: KeyAndMask:0xf06:0xffffff87
+    Machine Vertex: Incoming Machine vertex 30 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (3810:3936), Routing Info: KeyAndMask:0xf07:0xffffff87
+    Machine Vertex: Incoming Machine vertex 31 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (3937:4063), Routing Info: KeyAndMask:0xf80:0xffffff87
+    Machine Vertex: Incoming Machine vertex 31 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (3937:4063), Routing Info: KeyAndMask:0xf81:0xffffff87
+    Machine Vertex: Incoming Machine vertex 31 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (3937:4063), Routing Info: KeyAndMask:0xf82:0xffffff87
+    Machine Vertex: Incoming Machine vertex 31 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (3937:4063), Routing Info: KeyAndMask:0xf83:0xffffff87
+    Machine Vertex: Incoming Machine vertex 31 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (3937:4063), Routing Info: KeyAndMask:0xf84:0xffffff87
+    Machine Vertex: Incoming Machine vertex 31 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (3937:4063), Routing Info: KeyAndMask:0xf85:0xffffff87
+    Machine Vertex: Incoming Machine vertex 31 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (3937:4063), Routing Info: KeyAndMask:0xf86:0xffffff87
+    Machine Vertex: Incoming Machine vertex 31 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (3937:4063), Routing Info: KeyAndMask:0xf87:0xffffff87
+    Machine Vertex: Incoming Machine vertex 32 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (4064:4190), Routing Info: KeyAndMask:0x1000:0xffffff87
+    Machine Vertex: Incoming Machine vertex 32 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (4064:4190), Routing Info: KeyAndMask:0x1001:0xffffff87
+    Machine Vertex: Incoming Machine vertex 32 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (4064:4190), Routing Info: KeyAndMask:0x1002:0xffffff87
+    Machine Vertex: Incoming Machine vertex 32 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (4064:4190), Routing Info: KeyAndMask:0x1003:0xffffff87
+    Machine Vertex: Incoming Machine vertex 32 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (4064:4190), Routing Info: KeyAndMask:0x1004:0xffffff87
+    Machine Vertex: Incoming Machine vertex 32 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (4064:4190), Routing Info: KeyAndMask:0x1005:0xffffff87
+    Machine Vertex: Incoming Machine vertex 32 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (4064:4190), Routing Info: KeyAndMask:0x1006:0xffffff87
+    Machine Vertex: Incoming Machine vertex 32 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (4064:4190), Routing Info: KeyAndMask:0x1007:0xffffff87
+    Machine Vertex: Incoming Machine vertex 33 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (4191:4317), Routing Info: KeyAndMask:0x1080:0xffffff87
+    Machine Vertex: Incoming Machine vertex 33 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (4191:4317), Routing Info: KeyAndMask:0x1081:0xffffff87
+    Machine Vertex: Incoming Machine vertex 33 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (4191:4317), Routing Info: KeyAndMask:0x1082:0xffffff87
+    Machine Vertex: Incoming Machine vertex 33 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (4191:4317), Routing Info: KeyAndMask:0x1083:0xffffff87
+    Machine Vertex: Incoming Machine vertex 33 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (4191:4317), Routing Info: KeyAndMask:0x1084:0xffffff87
+    Machine Vertex: Incoming Machine vertex 33 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (4191:4317), Routing Info: KeyAndMask:0x1085:0xffffff87
+    Machine Vertex: Incoming Machine vertex 33 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (4191:4317), Routing Info: KeyAndMask:0x1086:0xffffff87
+    Machine Vertex: Incoming Machine vertex 33 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (4191:4317), Routing Info: KeyAndMask:0x1087:0xffffff87
+    Machine Vertex: Incoming Machine vertex 34 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (4318:4444), Routing Info: KeyAndMask:0x1100:0xffffff87
+    Machine Vertex: Incoming Machine vertex 34 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (4318:4444), Routing Info: KeyAndMask:0x1101:0xffffff87
+    Machine Vertex: Incoming Machine vertex 34 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (4318:4444), Routing Info: KeyAndMask:0x1102:0xffffff87
+    Machine Vertex: Incoming Machine vertex 34 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (4318:4444), Routing Info: KeyAndMask:0x1103:0xffffff87
+    Machine Vertex: Incoming Machine vertex 34 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (4318:4444), Routing Info: KeyAndMask:0x1104:0xffffff87
+    Machine Vertex: Incoming Machine vertex 34 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (4318:4444), Routing Info: KeyAndMask:0x1105:0xffffff87
+    Machine Vertex: Incoming Machine vertex 34 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (4318:4444), Routing Info: KeyAndMask:0x1106:0xffffff87
+    Machine Vertex: Incoming Machine vertex 34 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (4318:4444), Routing Info: KeyAndMask:0x1107:0xffffff87
+    Machine Vertex: Incoming Machine vertex 35 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (4445:4571), Routing Info: KeyAndMask:0x1180:0xffffff87
+    Machine Vertex: Incoming Machine vertex 35 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (4445:4571), Routing Info: KeyAndMask:0x1181:0xffffff87
+    Machine Vertex: Incoming Machine vertex 35 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (4445:4571), Routing Info: KeyAndMask:0x1182:0xffffff87
+    Machine Vertex: Incoming Machine vertex 35 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (4445:4571), Routing Info: KeyAndMask:0x1183:0xffffff87
+    Machine Vertex: Incoming Machine vertex 35 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (4445:4571), Routing Info: KeyAndMask:0x1184:0xffffff87
+    Machine Vertex: Incoming Machine vertex 35 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (4445:4571), Routing Info: KeyAndMask:0x1185:0xffffff87
+    Machine Vertex: Incoming Machine vertex 35 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (4445:4571), Routing Info: KeyAndMask:0x1186:0xffffff87
+    Machine Vertex: Incoming Machine vertex 35 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (4445:4571), Routing Info: KeyAndMask:0x1187:0xffffff87
+    Machine Vertex: Incoming Machine vertex 36 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (4572:4698), Routing Info: KeyAndMask:0x1200:0xffffff87
+    Machine Vertex: Incoming Machine vertex 36 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (4572:4698), Routing Info: KeyAndMask:0x1201:0xffffff87
+    Machine Vertex: Incoming Machine vertex 36 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (4572:4698), Routing Info: KeyAndMask:0x1202:0xffffff87
+    Machine Vertex: Incoming Machine vertex 36 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (4572:4698), Routing Info: KeyAndMask:0x1203:0xffffff87
+    Machine Vertex: Incoming Machine vertex 36 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (4572:4698), Routing Info: KeyAndMask:0x1204:0xffffff87
+    Machine Vertex: Incoming Machine vertex 36 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (4572:4698), Routing Info: KeyAndMask:0x1205:0xffffff87
+    Machine Vertex: Incoming Machine vertex 36 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (4572:4698), Routing Info: KeyAndMask:0x1206:0xffffff87
+    Machine Vertex: Incoming Machine vertex 36 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (4572:4698), Routing Info: KeyAndMask:0x1207:0xffffff87
+    Machine Vertex: Incoming Machine vertex 37 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (4699:4825), Routing Info: KeyAndMask:0x1280:0xffffff87
+    Machine Vertex: Incoming Machine vertex 37 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (4699:4825), Routing Info: KeyAndMask:0x1281:0xffffff87
+    Machine Vertex: Incoming Machine vertex 37 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (4699:4825), Routing Info: KeyAndMask:0x1282:0xffffff87
+    Machine Vertex: Incoming Machine vertex 37 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (4699:4825), Routing Info: KeyAndMask:0x1283:0xffffff87
+    Machine Vertex: Incoming Machine vertex 37 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (4699:4825), Routing Info: KeyAndMask:0x1284:0xffffff87
+    Machine Vertex: Incoming Machine vertex 37 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (4699:4825), Routing Info: KeyAndMask:0x1285:0xffffff87
+    Machine Vertex: Incoming Machine vertex 37 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (4699:4825), Routing Info: KeyAndMask:0x1286:0xffffff87
+    Machine Vertex: Incoming Machine vertex 37 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (4699:4825), Routing Info: KeyAndMask:0x1287:0xffffff87
+    Machine Vertex: Incoming Machine vertex 38 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (4826:4952), Routing Info: KeyAndMask:0x1300:0xffffff87
+    Machine Vertex: Incoming Machine vertex 38 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (4826:4952), Routing Info: KeyAndMask:0x1301:0xffffff87
+    Machine Vertex: Incoming Machine vertex 38 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (4826:4952), Routing Info: KeyAndMask:0x1302:0xffffff87
+    Machine Vertex: Incoming Machine vertex 38 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (4826:4952), Routing Info: KeyAndMask:0x1303:0xffffff87
+    Machine Vertex: Incoming Machine vertex 38 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (4826:4952), Routing Info: KeyAndMask:0x1304:0xffffff87
+    Machine Vertex: Incoming Machine vertex 38 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (4826:4952), Routing Info: KeyAndMask:0x1305:0xffffff87
+    Machine Vertex: Incoming Machine vertex 38 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (4826:4952), Routing Info: KeyAndMask:0x1306:0xffffff87
+    Machine Vertex: Incoming Machine vertex 38 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (4826:4952), Routing Info: KeyAndMask:0x1307:0xffffff87
+    Machine Vertex: Incoming Machine vertex 39 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (4953:5079), Routing Info: KeyAndMask:0x1380:0xffffff87
+    Machine Vertex: Incoming Machine vertex 39 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (4953:5079), Routing Info: KeyAndMask:0x1381:0xffffff87
+    Machine Vertex: Incoming Machine vertex 39 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (4953:5079), Routing Info: KeyAndMask:0x1382:0xffffff87
+    Machine Vertex: Incoming Machine vertex 39 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (4953:5079), Routing Info: KeyAndMask:0x1383:0xffffff87
+    Machine Vertex: Incoming Machine vertex 39 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (4953:5079), Routing Info: KeyAndMask:0x1384:0xffffff87
+    Machine Vertex: Incoming Machine vertex 39 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (4953:5079), Routing Info: KeyAndMask:0x1385:0xffffff87
+    Machine Vertex: Incoming Machine vertex 39 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (4953:5079), Routing Info: KeyAndMask:0x1386:0xffffff87
+    Machine Vertex: Incoming Machine vertex 39 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (4953:5079), Routing Info: KeyAndMask:0x1387:0xffffff87
+    Machine Vertex: Incoming Machine vertex 40 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (5080:5206), Routing Info: KeyAndMask:0x1400:0xffffff87
+    Machine Vertex: Incoming Machine vertex 40 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (5080:5206), Routing Info: KeyAndMask:0x1401:0xffffff87
+    Machine Vertex: Incoming Machine vertex 40 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (5080:5206), Routing Info: KeyAndMask:0x1402:0xffffff87
+    Machine Vertex: Incoming Machine vertex 40 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (5080:5206), Routing Info: KeyAndMask:0x1403:0xffffff87
+    Machine Vertex: Incoming Machine vertex 40 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (5080:5206), Routing Info: KeyAndMask:0x1404:0xffffff87
+    Machine Vertex: Incoming Machine vertex 40 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (5080:5206), Routing Info: KeyAndMask:0x1405:0xffffff87
+    Machine Vertex: Incoming Machine vertex 40 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (5080:5206), Routing Info: KeyAndMask:0x1406:0xffffff87
+    Machine Vertex: Incoming Machine vertex 40 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (5080:5206), Routing Info: KeyAndMask:0x1407:0xffffff87
+    Machine Vertex: Incoming Machine vertex 41 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (5207:5333), Routing Info: KeyAndMask:0x1480:0xffffff87
+    Machine Vertex: Incoming Machine vertex 41 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (5207:5333), Routing Info: KeyAndMask:0x1481:0xffffff87
+    Machine Vertex: Incoming Machine vertex 41 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (5207:5333), Routing Info: KeyAndMask:0x1482:0xffffff87
+    Machine Vertex: Incoming Machine vertex 41 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (5207:5333), Routing Info: KeyAndMask:0x1483:0xffffff87
+    Machine Vertex: Incoming Machine vertex 41 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (5207:5333), Routing Info: KeyAndMask:0x1484:0xffffff87
+    Machine Vertex: Incoming Machine vertex 41 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (5207:5333), Routing Info: KeyAndMask:0x1485:0xffffff87
+    Machine Vertex: Incoming Machine vertex 41 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (5207:5333), Routing Info: KeyAndMask:0x1486:0xffffff87
+    Machine Vertex: Incoming Machine vertex 41 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (5207:5333), Routing Info: KeyAndMask:0x1487:0xffffff87
+    Machine Vertex: Incoming Machine vertex 42 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (5334:5460), Routing Info: KeyAndMask:0x1500:0xffffff87
+    Machine Vertex: Incoming Machine vertex 42 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (5334:5460), Routing Info: KeyAndMask:0x1501:0xffffff87
+    Machine Vertex: Incoming Machine vertex 42 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (5334:5460), Routing Info: KeyAndMask:0x1502:0xffffff87
+    Machine Vertex: Incoming Machine vertex 42 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (5334:5460), Routing Info: KeyAndMask:0x1503:0xffffff87
+    Machine Vertex: Incoming Machine vertex 42 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (5334:5460), Routing Info: KeyAndMask:0x1504:0xffffff87
+    Machine Vertex: Incoming Machine vertex 42 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (5334:5460), Routing Info: KeyAndMask:0x1505:0xffffff87
+    Machine Vertex: Incoming Machine vertex 42 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (5334:5460), Routing Info: KeyAndMask:0x1506:0xffffff87
+    Machine Vertex: Incoming Machine vertex 42 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (5334:5460), Routing Info: KeyAndMask:0x1507:0xffffff87
+    Machine Vertex: Incoming Machine vertex 43 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (5461:5587), Routing Info: KeyAndMask:0x1580:0xffffff87
+    Machine Vertex: Incoming Machine vertex 43 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (5461:5587), Routing Info: KeyAndMask:0x1581:0xffffff87
+    Machine Vertex: Incoming Machine vertex 43 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (5461:5587), Routing Info: KeyAndMask:0x1582:0xffffff87
+    Machine Vertex: Incoming Machine vertex 43 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (5461:5587), Routing Info: KeyAndMask:0x1583:0xffffff87
+    Machine Vertex: Incoming Machine vertex 43 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (5461:5587), Routing Info: KeyAndMask:0x1584:0xffffff87
+    Machine Vertex: Incoming Machine vertex 43 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (5461:5587), Routing Info: KeyAndMask:0x1585:0xffffff87
+    Machine Vertex: Incoming Machine vertex 43 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (5461:5587), Routing Info: KeyAndMask:0x1586:0xffffff87
+    Machine Vertex: Incoming Machine vertex 43 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (5461:5587), Routing Info: KeyAndMask:0x1587:0xffffff87
+    Machine Vertex: Incoming Machine vertex 44 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (5588:5714), Routing Info: KeyAndMask:0x1600:0xffffff87
+    Machine Vertex: Incoming Machine vertex 44 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (5588:5714), Routing Info: KeyAndMask:0x1601:0xffffff87
+    Machine Vertex: Incoming Machine vertex 44 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (5588:5714), Routing Info: KeyAndMask:0x1602:0xffffff87
+    Machine Vertex: Incoming Machine vertex 44 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (5588:5714), Routing Info: KeyAndMask:0x1603:0xffffff87
+    Machine Vertex: Incoming Machine vertex 44 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (5588:5714), Routing Info: KeyAndMask:0x1604:0xffffff87
+    Machine Vertex: Incoming Machine vertex 44 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (5588:5714), Routing Info: KeyAndMask:0x1605:0xffffff87
+    Machine Vertex: Incoming Machine vertex 44 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (5588:5714), Routing Info: KeyAndMask:0x1606:0xffffff87
+    Machine Vertex: Incoming Machine vertex 44 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (5588:5714), Routing Info: KeyAndMask:0x1607:0xffffff87
+    Machine Vertex: Incoming Machine vertex 45 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (5715:5841), Routing Info: KeyAndMask:0x1680:0xffffff87
+    Machine Vertex: Incoming Machine vertex 45 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (5715:5841), Routing Info: KeyAndMask:0x1681:0xffffff87
+    Machine Vertex: Incoming Machine vertex 45 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (5715:5841), Routing Info: KeyAndMask:0x1682:0xffffff87
+    Machine Vertex: Incoming Machine vertex 45 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (5715:5841), Routing Info: KeyAndMask:0x1683:0xffffff87
+    Machine Vertex: Incoming Machine vertex 45 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (5715:5841), Routing Info: KeyAndMask:0x1684:0xffffff87
+    Machine Vertex: Incoming Machine vertex 45 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (5715:5841), Routing Info: KeyAndMask:0x1685:0xffffff87
+    Machine Vertex: Incoming Machine vertex 45 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (5715:5841), Routing Info: KeyAndMask:0x1686:0xffffff87
+    Machine Vertex: Incoming Machine vertex 45 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (5715:5841), Routing Info: KeyAndMask:0x1687:0xffffff87
+    Machine Vertex: Incoming Machine vertex 46 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (5842:5968), Routing Info: KeyAndMask:0x1700:0xffffff87
+    Machine Vertex: Incoming Machine vertex 46 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (5842:5968), Routing Info: KeyAndMask:0x1701:0xffffff87
+    Machine Vertex: Incoming Machine vertex 46 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (5842:5968), Routing Info: KeyAndMask:0x1702:0xffffff87
+    Machine Vertex: Incoming Machine vertex 46 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (5842:5968), Routing Info: KeyAndMask:0x1703:0xffffff87
+    Machine Vertex: Incoming Machine vertex 46 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (5842:5968), Routing Info: KeyAndMask:0x1704:0xffffff87
+    Machine Vertex: Incoming Machine vertex 46 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (5842:5968), Routing Info: KeyAndMask:0x1705:0xffffff87
+    Machine Vertex: Incoming Machine vertex 46 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (5842:5968), Routing Info: KeyAndMask:0x1706:0xffffff87
+    Machine Vertex: Incoming Machine vertex 46 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (5842:5968), Routing Info: KeyAndMask:0x1707:0xffffff87
+    Machine Vertex: Incoming Machine vertex 47 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (5969:6095), Routing Info: KeyAndMask:0x1780:0xffffff87
+    Machine Vertex: Incoming Machine vertex 47 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (5969:6095), Routing Info: KeyAndMask:0x1781:0xffffff87
+    Machine Vertex: Incoming Machine vertex 47 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (5969:6095), Routing Info: KeyAndMask:0x1782:0xffffff87
+    Machine Vertex: Incoming Machine vertex 47 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (5969:6095), Routing Info: KeyAndMask:0x1783:0xffffff87
+    Machine Vertex: Incoming Machine vertex 47 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (5969:6095), Routing Info: KeyAndMask:0x1784:0xffffff87
+    Machine Vertex: Incoming Machine vertex 47 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (5969:6095), Routing Info: KeyAndMask:0x1785:0xffffff87
+    Machine Vertex: Incoming Machine vertex 47 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (5969:6095), Routing Info: KeyAndMask:0x1786:0xffffff87
+    Machine Vertex: Incoming Machine vertex 47 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (5969:6095), Routing Info: KeyAndMask:0x1787:0xffffff87
+    Machine Vertex: Incoming Machine vertex 48 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (6096:6222), Routing Info: KeyAndMask:0x1800:0xffffff87
+    Machine Vertex: Incoming Machine vertex 48 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (6096:6222), Routing Info: KeyAndMask:0x1801:0xffffff87
+    Machine Vertex: Incoming Machine vertex 48 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (6096:6222), Routing Info: KeyAndMask:0x1802:0xffffff87
+    Machine Vertex: Incoming Machine vertex 48 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (6096:6222), Routing Info: KeyAndMask:0x1803:0xffffff87
+    Machine Vertex: Incoming Machine vertex 48 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (6096:6222), Routing Info: KeyAndMask:0x1804:0xffffff87
+    Machine Vertex: Incoming Machine vertex 48 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (6096:6222), Routing Info: KeyAndMask:0x1805:0xffffff87
+    Machine Vertex: Incoming Machine vertex 48 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (6096:6222), Routing Info: KeyAndMask:0x1806:0xffffff87
+    Machine Vertex: Incoming Machine vertex 48 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (6096:6222), Routing Info: KeyAndMask:0x1807:0xffffff87
+    Machine Vertex: Incoming Machine vertex 49 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (6223:6349), Routing Info: KeyAndMask:0x1880:0xffffff87
+    Machine Vertex: Incoming Machine vertex 49 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (6223:6349), Routing Info: KeyAndMask:0x1881:0xffffff87
+    Machine Vertex: Incoming Machine vertex 49 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (6223:6349), Routing Info: KeyAndMask:0x1882:0xffffff87
+    Machine Vertex: Incoming Machine vertex 49 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (6223:6349), Routing Info: KeyAndMask:0x1883:0xffffff87
+    Machine Vertex: Incoming Machine vertex 49 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (6223:6349), Routing Info: KeyAndMask:0x1884:0xffffff87
+    Machine Vertex: Incoming Machine vertex 49 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (6223:6349), Routing Info: KeyAndMask:0x1885:0xffffff87
+    Machine Vertex: Incoming Machine vertex 49 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (6223:6349), Routing Info: KeyAndMask:0x1886:0xffffff87
+    Machine Vertex: Incoming Machine vertex 49 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (6223:6349), Routing Info: KeyAndMask:0x1887:0xffffff87
+    Machine Vertex: Incoming Machine vertex 50 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (6350:6476), Routing Info: KeyAndMask:0x1900:0xffffff87
+    Machine Vertex: Incoming Machine vertex 50 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (6350:6476), Routing Info: KeyAndMask:0x1901:0xffffff87
+    Machine Vertex: Incoming Machine vertex 50 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (6350:6476), Routing Info: KeyAndMask:0x1902:0xffffff87
+    Machine Vertex: Incoming Machine vertex 50 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (6350:6476), Routing Info: KeyAndMask:0x1903:0xffffff87
+    Machine Vertex: Incoming Machine vertex 50 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (6350:6476), Routing Info: KeyAndMask:0x1904:0xffffff87
+    Machine Vertex: Incoming Machine vertex 50 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (6350:6476), Routing Info: KeyAndMask:0x1905:0xffffff87
+    Machine Vertex: Incoming Machine vertex 50 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (6350:6476), Routing Info: KeyAndMask:0x1906:0xffffff87
+    Machine Vertex: Incoming Machine vertex 50 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (6350:6476), Routing Info: KeyAndMask:0x1907:0xffffff87
+    Machine Vertex: Incoming Machine vertex 51 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (6477:6603), Routing Info: KeyAndMask:0x1980:0xffffff87
+    Machine Vertex: Incoming Machine vertex 51 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (6477:6603), Routing Info: KeyAndMask:0x1981:0xffffff87
+    Machine Vertex: Incoming Machine vertex 51 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (6477:6603), Routing Info: KeyAndMask:0x1982:0xffffff87
+    Machine Vertex: Incoming Machine vertex 51 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (6477:6603), Routing Info: KeyAndMask:0x1983:0xffffff87
+    Machine Vertex: Incoming Machine vertex 51 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (6477:6603), Routing Info: KeyAndMask:0x1984:0xffffff87
+    Machine Vertex: Incoming Machine vertex 51 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (6477:6603), Routing Info: KeyAndMask:0x1985:0xffffff87
+    Machine Vertex: Incoming Machine vertex 51 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (6477:6603), Routing Info: KeyAndMask:0x1986:0xffffff87
+    Machine Vertex: Incoming Machine vertex 51 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (6477:6603), Routing Info: KeyAndMask:0x1987:0xffffff87
+    Machine Vertex: Incoming Machine vertex 52 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (6604:6730), Routing Info: KeyAndMask:0x1a00:0xffffff87
+    Machine Vertex: Incoming Machine vertex 52 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (6604:6730), Routing Info: KeyAndMask:0x1a01:0xffffff87
+    Machine Vertex: Incoming Machine vertex 52 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (6604:6730), Routing Info: KeyAndMask:0x1a02:0xffffff87
+    Machine Vertex: Incoming Machine vertex 52 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (6604:6730), Routing Info: KeyAndMask:0x1a03:0xffffff87
+    Machine Vertex: Incoming Machine vertex 52 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (6604:6730), Routing Info: KeyAndMask:0x1a04:0xffffff87
+    Machine Vertex: Incoming Machine vertex 52 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (6604:6730), Routing Info: KeyAndMask:0x1a05:0xffffff87
+    Machine Vertex: Incoming Machine vertex 52 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (6604:6730), Routing Info: KeyAndMask:0x1a06:0xffffff87
+    Machine Vertex: Incoming Machine vertex 52 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (6604:6730), Routing Info: KeyAndMask:0x1a07:0xffffff87
+    Machine Vertex: Incoming Machine vertex 53 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (6731:6857), Routing Info: KeyAndMask:0x1a80:0xffffff87
+    Machine Vertex: Incoming Machine vertex 53 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (6731:6857), Routing Info: KeyAndMask:0x1a81:0xffffff87
+    Machine Vertex: Incoming Machine vertex 53 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (6731:6857), Routing Info: KeyAndMask:0x1a82:0xffffff87
+    Machine Vertex: Incoming Machine vertex 53 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (6731:6857), Routing Info: KeyAndMask:0x1a83:0xffffff87
+    Machine Vertex: Incoming Machine vertex 53 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (6731:6857), Routing Info: KeyAndMask:0x1a84:0xffffff87
+    Machine Vertex: Incoming Machine vertex 53 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (6731:6857), Routing Info: KeyAndMask:0x1a85:0xffffff87
+    Machine Vertex: Incoming Machine vertex 53 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (6731:6857), Routing Info: KeyAndMask:0x1a86:0xffffff87
+    Machine Vertex: Incoming Machine vertex 53 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (6731:6857), Routing Info: KeyAndMask:0x1a87:0xffffff87
+    Machine Vertex: Incoming Machine vertex 54 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (6858:6984), Routing Info: KeyAndMask:0x1b00:0xffffff87
+    Machine Vertex: Incoming Machine vertex 54 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (6858:6984), Routing Info: KeyAndMask:0x1b01:0xffffff87
+    Machine Vertex: Incoming Machine vertex 54 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (6858:6984), Routing Info: KeyAndMask:0x1b02:0xffffff87
+    Machine Vertex: Incoming Machine vertex 54 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (6858:6984), Routing Info: KeyAndMask:0x1b03:0xffffff87
+    Machine Vertex: Incoming Machine vertex 54 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (6858:6984), Routing Info: KeyAndMask:0x1b04:0xffffff87
+    Machine Vertex: Incoming Machine vertex 54 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (6858:6984), Routing Info: KeyAndMask:0x1b05:0xffffff87
+    Machine Vertex: Incoming Machine vertex 54 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (6858:6984), Routing Info: KeyAndMask:0x1b06:0xffffff87
+    Machine Vertex: Incoming Machine vertex 54 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (6858:6984), Routing Info: KeyAndMask:0x1b07:0xffffff87
+    Machine Vertex: Incoming Machine vertex 55 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (6985:7111), Routing Info: KeyAndMask:0x1b80:0xffffff87
+    Machine Vertex: Incoming Machine vertex 55 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (6985:7111), Routing Info: KeyAndMask:0x1b81:0xffffff87
+    Machine Vertex: Incoming Machine vertex 55 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (6985:7111), Routing Info: KeyAndMask:0x1b82:0xffffff87
+    Machine Vertex: Incoming Machine vertex 55 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (6985:7111), Routing Info: KeyAndMask:0x1b83:0xffffff87
+    Machine Vertex: Incoming Machine vertex 55 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (6985:7111), Routing Info: KeyAndMask:0x1b84:0xffffff87
+    Machine Vertex: Incoming Machine vertex 55 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (6985:7111), Routing Info: KeyAndMask:0x1b85:0xffffff87
+    Machine Vertex: Incoming Machine vertex 55 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (6985:7111), Routing Info: KeyAndMask:0x1b86:0xffffff87
+    Machine Vertex: Incoming Machine vertex 55 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (6985:7111), Routing Info: KeyAndMask:0x1b87:0xffffff87
+    Machine Vertex: Incoming Machine vertex 56 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (7112:7238), Routing Info: KeyAndMask:0x1c00:0xffffff87
+    Machine Vertex: Incoming Machine vertex 56 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (7112:7238), Routing Info: KeyAndMask:0x1c01:0xffffff87
+    Machine Vertex: Incoming Machine vertex 56 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (7112:7238), Routing Info: KeyAndMask:0x1c02:0xffffff87
+    Machine Vertex: Incoming Machine vertex 56 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (7112:7238), Routing Info: KeyAndMask:0x1c03:0xffffff87
+    Machine Vertex: Incoming Machine vertex 56 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (7112:7238), Routing Info: KeyAndMask:0x1c04:0xffffff87
+    Machine Vertex: Incoming Machine vertex 56 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (7112:7238), Routing Info: KeyAndMask:0x1c05:0xffffff87
+    Machine Vertex: Incoming Machine vertex 56 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (7112:7238), Routing Info: KeyAndMask:0x1c06:0xffffff87
+    Machine Vertex: Incoming Machine vertex 56 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (7112:7238), Routing Info: KeyAndMask:0x1c07:0xffffff87
+    Machine Vertex: Incoming Machine vertex 57 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (7239:7365), Routing Info: KeyAndMask:0x1c80:0xffffff87
+    Machine Vertex: Incoming Machine vertex 57 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (7239:7365), Routing Info: KeyAndMask:0x1c81:0xffffff87
+    Machine Vertex: Incoming Machine vertex 57 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (7239:7365), Routing Info: KeyAndMask:0x1c82:0xffffff87
+    Machine Vertex: Incoming Machine vertex 57 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (7239:7365), Routing Info: KeyAndMask:0x1c83:0xffffff87
+    Machine Vertex: Incoming Machine vertex 57 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (7239:7365), Routing Info: KeyAndMask:0x1c84:0xffffff87
+    Machine Vertex: Incoming Machine vertex 57 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (7239:7365), Routing Info: KeyAndMask:0x1c85:0xffffff87
+    Machine Vertex: Incoming Machine vertex 57 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (7239:7365), Routing Info: KeyAndMask:0x1c86:0xffffff87
+    Machine Vertex: Incoming Machine vertex 57 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (7239:7365), Routing Info: KeyAndMask:0x1c87:0xffffff87
+    Machine Vertex: Incoming Machine vertex 58 for SPIFInputDevice_1:0:1:None:(0, 0), Slice: (7366:7492), Routing Info: KeyAndMask:0x1d00:0xffffff87
+    Machine Vertex: Incoming Machine vertex 58 for SPIFInputDevice_1:0:3:None:(0, 0), Slice: (7366:7492), Routing Info: KeyAndMask:0x1d01:0xffffff87
+    Machine Vertex: Incoming Machine vertex 58 for SPIFInputDevice_1:0:5:None:(0, 0), Slice: (7366:7492), Routing Info: KeyAndMask:0x1d02:0xffffff87
+    Machine Vertex: Incoming Machine vertex 58 for SPIFInputDevice_1:0:7:None:(0, 0), Slice: (7366:7492), Routing Info: KeyAndMask:0x1d03:0xffffff87
+    Machine Vertex: Incoming Machine vertex 58 for SPIFInputDevice_1:0:9:None:(0, 0), Slice: (7366:7492), Routing Info: KeyAndMask:0x1d04:0xffffff87
+    Machine Vertex: Incoming Machine vertex 58 for SPIFInputDevice_1:0:11:None:(0, 0), Slice: (7366:7492), Routing Info: KeyAndMask:0x1d05:0xffffff87
+    Machine Vertex: Incoming Machine vertex 58 for SPIFInputDevice_1:0:13:None:(0, 0), Slice: (7366:7492), Routing Info: KeyAndMask:0x1d06:0xffffff87
+    Machine Vertex: Incoming Machine vertex 58 for SPIFInputDevice_1:0:15:None:(0, 0), Slice: (7366:7492), Routing Info: KeyAndMask:0x1d07:0xffffff87
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS24, Routing Info: KeyAndMask:0xffffff23:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff23:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS36, Routing Info: KeyAndMask:0xffffffb7:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb7:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS8, Routing Info: KeyAndMask:0xffffff93:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff93:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS32, Routing Info: KeyAndMask:0xffffffb3:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb3:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS39, Routing Info: KeyAndMask:0xffffff32:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff32:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS5, Routing Info: KeyAndMask:0xffffff90:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff90:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS18, Routing Info: KeyAndMask:0xffffff15:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff15:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS41, Routing Info: KeyAndMask:0xffffff34:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff34:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS52, Routing Info: KeyAndMask:0xffffff61:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff61:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS28, Routing Info: KeyAndMask:0xffffff27:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff27:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS35, Routing Info: KeyAndMask:0xffffffb6:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb6:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS49, Routing Info: KeyAndMask:0xfffffe11:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xfffffe11:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS44, Routing Info: KeyAndMask:0xffffff37:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff37:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS12, Routing Info: KeyAndMask:0xffffff97:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff97:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS21, Routing Info: KeyAndMask:0xffffff20:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff20:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS30, Routing Info: KeyAndMask:0xffffffb1:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb1:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS50, Routing Info: KeyAndMask:0xffffff50:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff50:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS14, Routing Info: KeyAndMask:0xffffff11:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff11:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS27, Routing Info: KeyAndMask:0xffffff26:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff26:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS37, Routing Info: KeyAndMask:0xffffff30:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff30:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS25, Routing Info: KeyAndMask:0xffffff24:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff24:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS46, Routing Info: KeyAndMask:0xffffff41:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff41:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS47, Routing Info: KeyAndMask:0xffffff42:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff42:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS22, Routing Info: KeyAndMask:0xffffff21:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff21:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS56, Routing Info: KeyAndMask:0xffffff71:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff71:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS16, Routing Info: KeyAndMask:0xffffff13:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff13:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS19, Routing Info: KeyAndMask:0xffffff16:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff16:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS55, Routing Info: KeyAndMask:0xffffff70:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff70:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS9, Routing Info: KeyAndMask:0xffffff94:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff94:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS29, Routing Info: KeyAndMask:0xffffffb0:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb0:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS17, Routing Info: KeyAndMask:0xffffff14:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff14:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS31, Routing Info: KeyAndMask:0xffffffb2:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffffb2:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS4, Routing Info: KeyAndMask:0xfffffe10:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xfffffe10:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS40, Routing Info: KeyAndMask:0xffffff33:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff33:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS51, Routing Info: KeyAndMask:0xffffff60:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff60:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS48, Routing Info: KeyAndMask:0xffffff43:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff43:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS2, Routing Info: KeyAndMask:0xffffff82:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff82:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS13, Routing Info: KeyAndMask:0xffffff10:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff10:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS43, Routing Info: KeyAndMask:0xffffff36:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff36:0xffffffff
+Vertex: Command Sender on 0, 0
+    Partition: COMMANDS7, Routing Info: KeyAndMask:0xffffff92:0xffffffff
+    Machine Vertex: Command Sender on 0, 0, Slice: (0:0), Routing Info: KeyAndMask:0xffffff92:0xffffffff
