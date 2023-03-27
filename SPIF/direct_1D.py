@@ -7,6 +7,7 @@ from struct import pack
 import matplotlib.pyplot as plt
 import argparse
 import time
+import os
 
 
 class Computer:
@@ -28,6 +29,7 @@ class Computer:
         self.pipe = self.spif_in_port - 3333
         self.spif_ip = args.spif_ip
         self.spif_out_port = args.out_port
+        print(f"SPIF @ {args.spif_ip}")
 
         # Visualizer
         self.pc_ip = args.pc_ip
@@ -130,6 +132,12 @@ class Computer:
     def __exit__(self, e, b, t):
         p.end()
 
+spin_spif_map = {"1": "172.16.223.2", 
+                 "37": "172.16.223.106", 
+                 "43": "172.16.223.98",
+                 "13": "172.16.223.10",
+                 "121": "172.16.223.122",
+                 "129": "172.16.223.130"}
 
 def parse_args():
 
@@ -139,9 +147,9 @@ def parse_args():
     parser.add_argument('-nx', '--npc-x', type=int, help="# Neurons Per Core (x)", default=8)
     parser.add_argument('-ny', '--npc-y', type=int, help="# Neurons Per Core (y)", default=4)
     parser.add_argument('-r','--runtime', type=int, help="Run Time, in seconds", default=60*240)
+    parser.add_argument('-b', '--board', type= str, help="SpiNN-5 Board IP x.x.x.<X>", default="1")
 
     # SPIF parameters
-    parser.add_argument('-i', '--spif-ip', type= str, help="SPIF's IP address", default="172.16.223.2")
     parser.add_argument('-pi', '--in-port', type=int, help="SPIF's port", default=3333)
     parser.add_argument('-po', '--out-port', type=int, help="SPIF's port", default=3332)    
     parser.add_argument('-x', '--width', type=int, help="Image width (in px)", default=128)
@@ -158,8 +166,20 @@ def parse_args():
 
 if __name__ == '__main__':
 
-
     args = parse_args()
+    args.spif_ip = spin_spif_map[args.board]
+
+
+    try:
+        # pdb.set_trace()
+        os.system("clear")
+        rig_command = f"rig-power 172.16.223.{int(args.board)-1}"
+        print(f"Currently waiting for '{rig_command}' to end")
+        os.system(rig_command)
+    except:
+        print("Wrong SpiNN-5 to SPIF mapping")
+        quit()
+
     spin = Computer(args)
 
 
