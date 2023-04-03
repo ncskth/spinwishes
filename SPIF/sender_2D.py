@@ -17,7 +17,7 @@ def parse_args():
     parser.add_argument('-s', '--size', type=int, help="# pixels on each dimension", default=1) 
     parser.add_argument('-ox', '--x-offset', type=int, help="x offset", default=0) 
     parser.add_argument('-oy', '--y-offset', type=int, help="y offset", default=0) 
-    parser.add_argument('-d', '--pc-ip', type= str, help="PC IP address", default="10.37.222.3")
+    parser.add_argument('-d', '--pc-ip', type= str, help="PC IP address", default="10.37.222.2")
     parser.add_argument('-p', '--pc-port', type=int, help="PC port", default=3331)    
     parser.add_argument('-z', '--sleep', type=float, help="sleep", default=0.01)    
 

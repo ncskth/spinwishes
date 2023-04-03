@@ -38,6 +38,8 @@ class Computer:
         self.pc_port = args.pc_port
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
+        self.direct = args.direct
+
         self.print_data()
 
 
@@ -67,15 +69,31 @@ class Computer:
         ###############################################################################################################
         # Set SPIF Output
         ###############################################################################################################
+        if self.direct:
 
-        OUT_POP_LABEL = "output"
+            OUT_POP_LABEL = "output"
 
-        print("Using SPIFOutputDevice")
-        conn = p.external_devices.SPIFLiveSpikesConnection([IN_POP_LABEL],self.spif_ip, self.spif_out_port)
-        conn.add_receive_callback(IN_POP_LABEL, self.recv_spif)
-        output_pop = p.Population(None, p.external_devices.SPIFOutputDevice(
-            database_notify_port_num=conn.local_port, chip_coords=self.chip), label=OUT_POP_LABEL)
-        p.external_devices.activate_live_output_to(input_pop, output_pop)
+            print("Using SPIFOutputDevice")
+            conn = p.external_devices.SPIFLiveSpikesConnection([IN_POP_LABEL],self.spif_ip, self.spif_out_port)
+            conn.add_receive_callback(IN_POP_LABEL, self.recv_spif)
+            output_pop = p.Population(None, p.external_devices.SPIFOutputDevice(
+                database_notify_port_num=conn.local_port, chip_coords=self.chip), label=OUT_POP_LABEL)
+            p.external_devices.activate_live_output_to(input_pop, output_pop)
+
+        else:
+
+            MID_POP_LABEL = "middle"
+            middle_pop = p.Population(self.width*self.height, p.IF_curr_exp(), label=MID_POP_LABEL)
+            p.Projection(input_pop, middle_pop, p.OneToOneConnector(), p.StaticSynapse(weight=5))
+
+            OUT_POP_LABEL = "output"
+
+            print("Using SPIFOutputDevice")
+            conn = p.external_devices.SPIFLiveSpikesConnection([MID_POP_LABEL],self.spif_ip, self.spif_out_port)
+            conn.add_receive_callback(MID_POP_LABEL, self.recv_spif)
+            output_pop = p.Population(None, p.external_devices.SPIFOutputDevice(
+                database_notify_port_num=conn.local_port, chip_coords=self.chip), label=OUT_POP_LABEL)
+            p.external_devices.activate_live_output_to(middle_pop, output_pop)
 
 
     def print_data(self):
@@ -83,6 +101,7 @@ class Computer:
         message = "Simulation Summary:\n"
         message += f"   - runtime: {self.runtime} seconds\n"
         message += f"   - with {self.npc_x}*{self.npc_y} neurons per core\n"
+        message += f"   - direct mode: {self.direct}\n"
         message += f"   - SPIF @{self.spif_ip}\n"
         message += f"      - input port: {self.spif_in_port}\n"
         message += f"      - output port: {self.spif_out_port}\n"
@@ -140,6 +159,8 @@ def parse_args():
 
     parser = argparse.ArgumentParser(description='SpiNNaker-SPIF Simulation')
 
+    parser.add_argument('-d', '--direct', action='store_true', help="indirect")  # on/off flag
+
     # SpiNNaker Simulation Parameters
     parser.add_argument('-nx', '--npc-x', type=int, help="# Neurons Per Core (x)", default=8)
     parser.add_argument('-ny', '--npc-y', type=int, help="# Neurons Per Core (y)", default=4)
@@ -155,7 +176,7 @@ def parse_args():
     parser.add_argument('-sy', '--sub-height', type=int, help="SPIF's sub-height", default=8)
 
     # 'Visualizer' Parameters (i.e a PC where to display SPIF's Output)
-    parser.add_argument('-d', '--pc-ip', type= str, help="PC IP address", default="")
+    parser.add_argument('-ip', '--pc-ip', type= str, help="PC IP address", default="")
     parser.add_argument('-p', '--pc-port', type=int, help="PC port", default=0)    
 
     return parser.parse_args()
@@ -164,6 +185,7 @@ def parse_args():
 if __name__ == '__main__':
 
     args = parse_args()
+    # pdb.set_trace()
     args.spif_ip = spin_spif_map[args.board]
 
 

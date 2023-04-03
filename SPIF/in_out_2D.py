@@ -7,6 +7,7 @@ from struct import pack
 import matplotlib.pyplot as plt
 import argparse
 import time
+import os
 
 def create_lut(w, h, sh, sw):
         
@@ -37,6 +38,8 @@ class Computer:
         self.npc_x = args.npc_x
         self.npc_y = args.npc_y
         self.runtime = 1000*args.runtime
+        self.board = int(args.board)
+        self.cfg_file = f"spynnaker_{self.board}.cfg"
 
         # SPIF parameters
         self.width = args.width
@@ -55,12 +58,14 @@ class Computer:
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.lut = create_lut(self.width, self.height, self.npc_x, self.npc_y)
 
+        self.direct = args.direct
+
         self.print_data()
 
 
     def __enter__(self):
 
-        p.setup(timestep=1.0, n_boards_required=24)
+        p.setup(timestep=1.0, n_boards_required=1, cfg_file=self.cfg_file)
         p.set_number_of_neurons_per_core(p.IF_curr_exp, (self.npc_x, self.npc_y))
 
 
@@ -80,14 +85,39 @@ class Computer:
         # Set SPIF Output
         ###############################################################################################################
 
-        OUT_POP_LABEL = "output"
+        if self.direct:
 
-        print("Using SPIFOutputDevice")
-        conn = p.external_devices.SPIFLiveSpikesConnection([IN_POP_LABEL],self.spif_ip, self.spif_out_port)
-        conn.add_receive_callback(IN_POP_LABEL, self.recv_spif)
-        output_pop = p.Population(None, p.external_devices.SPIFOutputDevice(
-            database_notify_port_num=conn.local_port, chip_coords=self.chip), label=OUT_POP_LABEL)
-        p.external_devices.activate_live_output_to(input_pop, output_pop)
+            OUT_POP_LABEL = "output"
+
+            print("Using SPIFOutputDevice")
+            conn = p.external_devices.SPIFLiveSpikesConnection([IN_POP_LABEL],self.spif_ip, self.spif_out_port)
+            conn.add_receive_callback(IN_POP_LABEL, self.recv_spif)
+            output_pop = p.Population(None, p.external_devices.SPIFOutputDevice(
+                database_notify_port_num=conn.local_port, chip_coords=self.chip), label=OUT_POP_LABEL)
+            p.external_devices.activate_live_output_to(input_pop, output_pop)
+
+        else:
+            
+            MID_POP_LABEL = "middle"
+            k_sz = 1
+            k_weight = 10
+            kernel = np.ones((k_sz, k_sz))*k_weight
+            convolution = p.ConvolutionConnector(kernel_weights=kernel)
+            out_width, out_height = convolution.get_post_shape((self.width, self.height))
+            middle_pop = p.Population(out_width * out_height, p.IF_curr_exp(),
+                                            structure=p.Grid2D(out_width / out_height), label=MID_POP_LABEL)
+            
+            p.Projection(input_pop, middle_pop, convolution, p.Convolution())
+
+
+            OUT_POP_LABEL = "output"
+
+            print("Using SPIFOutputDevice")
+            conn = p.external_devices.SPIFLiveSpikesConnection([MID_POP_LABEL],self.spif_ip, self.spif_out_port)
+            conn.add_receive_callback(MID_POP_LABEL, self.recv_spif)
+            output_pop = p.Population(None, p.external_devices.SPIFOutputDevice(
+                database_notify_port_num=conn.local_port, chip_coords=self.chip), label=OUT_POP_LABEL)
+            p.external_devices.activate_live_output_to(middle_pop, output_pop)
 
 
     def print_data(self):
@@ -95,6 +125,7 @@ class Computer:
         message = "Simulation Summary:\n"
         message += f"   - runtime: {self.runtime} seconds\n"
         message += f"   - with {self.npc_x}*{self.npc_y} neurons per core\n"
+        message += f"   - direct mode: {self.direct}\n"
         message += f"   - SPIF @{self.spif_ip}\n"
         message += f"      - input port: {self.spif_in_port}\n"
         message += f"      - output port: {self.spif_out_port}\n"
@@ -111,8 +142,11 @@ class Computer:
 
     def recv_spif(self, label, spikes):
 
+        np_spikes = np.array(spikes)
         if self.pc_ip == "":
-            pass
+            for i in range(np_spikes.shape[0]):
+                print(f"Receving event from neuron id: {np_spikes[i]}")
+            # pass
         else:        
             data = b""
 
@@ -123,10 +157,10 @@ class Computer:
             np_spikes = np.array(spikes)
             # print(np_spikes.shape)
             for i in range(np_spikes.shape[0]):
-                x = self.lut[np_spikes[i]][0]
-                y = self.lut[np_spikes[i]][1]
+                x = int(np_spikes[i] % self.width)
+                y = int(np_spikes[i] / self.width)
                 polarity = 1
-                # print(f"{np_spikes[i]} --> ({self.lut[np_spikes[i]][0]}, {self.lut[np_spikes[i]][1]})")
+                # print(f"{np_spikes[i]} --> ({x},{y})")
                 packed = (NO_TIMESTAMP + (polarity << P_SHIFT) + (y << Y_SHIFT) + (x << X_SHIFT))
                 data += pack("<I", packed)
             self.sock.sendto(data, (self.pc_ip, self.pc_port))
@@ -140,17 +174,26 @@ class Computer:
         p.end()
 
 
+spin_spif_map = {"1": "172.16.223.2", 
+                 "37": "172.16.223.106", 
+                 "43": "172.16.223.98",
+                 "13": "172.16.223.10",
+                 "121": "172.16.223.122",
+                 "129": "172.16.223.130"}
+
 def parse_args():
 
     parser = argparse.ArgumentParser(description='SpiNNaker-SPIF Simulation')
+
+    parser.add_argument('-d', '--direct', action='store_true', help="indirect")  # on/off flag
 
     # SpiNNaker Simulation Parameters
     parser.add_argument('-nx', '--npc-x', type=int, help="# Neurons Per Core (x)", default=8)
     parser.add_argument('-ny', '--npc-y', type=int, help="# Neurons Per Core (y)", default=4)
     parser.add_argument('-r','--runtime', type=int, help="Run Time, in seconds", default=60*240)
+    parser.add_argument('-b', '--board', type= str, help="SPIF's SpiNN-5 IP x.x.x.?", default="1")
 
     # SPIF parameters
-    parser.add_argument('-i', '--spif-ip', type= str, help="SPIF's IP address", default="172.16.223.2")
     parser.add_argument('-pi', '--in-port', type=int, help="SPIF's port", default=3333)
     parser.add_argument('-po', '--out-port', type=int, help="SPIF's port", default=3332)    
     parser.add_argument('-x', '--width', type=int, help="Image width (in px)", default=128)
@@ -159,7 +202,7 @@ def parse_args():
     parser.add_argument('-sy', '--sub-height', type=int, help="SPIF's sub-height", default=8)
 
     # 'Visualizer' Parameters (i.e a PC where to display SPIF's Output)
-    parser.add_argument('-d', '--pc-ip', type= str, help="PC IP address", default="")
+    parser.add_argument('-ip', '--pc-ip', type= str, help="PC IP address", default="")
     parser.add_argument('-p', '--pc-port', type=int, help="PC port", default=0)    
 
     return parser.parse_args()
@@ -169,6 +212,18 @@ if __name__ == '__main__':
 
 
     args = parse_args()
+    # pdb.set_trace()
+    args.spif_ip = spin_spif_map[str(args.board)]
+    
+    try:
+        rig_command = f"rig-power 172.16.223.{int(args.board)-1}"
+        print(f"Currently waiting for '{rig_command}' to end")
+        os.system(rig_command)
+        time.sleep(5)
+    except:
+        print("Wrong SpiNN-5 to SPIF mapping")
+        quit()
+
     spin = Computer(args)
 
 
