@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import argparse
 import time
 import os
+import threading
 
 def create_lut(w, h, sh, sw):
         
@@ -61,6 +62,10 @@ class Computer:
         self.direct = args.direct
 
         self.print_data()
+        self.ev_count = 0
+        self.printer = threading.Thread(target=self.print_ev_count, args=())
+        self.printer.start()
+
 
 
     def __enter__(self):
@@ -113,12 +118,19 @@ class Computer:
             OUT_POP_LABEL = "output"
 
             print("Using SPIFOutputDevice")
-            conn = p.external_devices.SPIFLiveSpikesConnection([MID_POP_LABEL],self.spif_ip, self.spif_out_port)
+            conn = p.external_devices.SPIFLiveSpikesConnection([MID_POP_LABEL],self.spif_ip, self.spif_out_port, events_per_packet=32, time_per_packet=10)
             conn.add_receive_callback(MID_POP_LABEL, self.recv_spif)
             output_pop = p.Population(None, p.external_devices.SPIFOutputDevice(
                 database_notify_port_num=conn.local_port, chip_coords=self.chip), label=OUT_POP_LABEL)
             p.external_devices.activate_live_output_to(middle_pop, output_pop)
 
+    def print_ev_count(self):
+        time.sleep(20)
+        t_sleep = 0.1
+        while True:
+            print(f"Ev count = {self.ev_count/t_sleep}           \r", end='')
+            self.ev_count = 0
+            time.sleep(t_sleep)
 
     def print_data(self):
 
@@ -143,10 +155,11 @@ class Computer:
     def recv_spif(self, label, spikes):
 
         np_spikes = np.array(spikes)
+        self.ev_count += len(np_spikes)
         if self.pc_ip == "":
-            for i in range(np_spikes.shape[0]):
-                print(f"Receving event from neuron id: {np_spikes[i]}")
-            # pass
+        #     for i in range(np_spikes.shape[0]):
+        #         print(f"Receving event from neuron id: {np_spikes[i]}")
+            pass
         else:        
             data = b""
 
@@ -156,14 +169,24 @@ class Computer:
             NO_TIMESTAMP = 0x80000000
             np_spikes = np.array(spikes)
             # print(np_spikes.shape)
+            ev_count = 0
             for i in range(np_spikes.shape[0]):
                 x = int(np_spikes[i] % self.width)
                 y = int(np_spikes[i] / self.width)
                 polarity = 1
                 # print(f"{np_spikes[i]} --> ({x},{y})")
                 packed = (NO_TIMESTAMP + (polarity << P_SHIFT) + (y << Y_SHIFT) + (x << X_SHIFT))
-                data += pack("<I", packed)
+                ev_count +=1
+                if ev_count*4 <= 128:
+                    data += pack("<I", packed)
+                else:
+                    self.sock.sendto(data, (self.pc_ip, self.pc_port))
+                    self.sock.sendto(data, ("10.37.222.2", self.pc_port))
+                    data = pack("<I", packed)
+                    ev_count = 1
+                    
             self.sock.sendto(data, (self.pc_ip, self.pc_port))
+            self.sock.sendto(data, ("10.37.222.2", self.pc_port))
 
 
     def run_sim(self):
@@ -172,6 +195,7 @@ class Computer:
 
     def __exit__(self, e, b, t):
         p.end()
+        print(f"ev_count: {self.ev_count}")
 
 
 spin_spif_map = {"1": "172.16.223.2", 
