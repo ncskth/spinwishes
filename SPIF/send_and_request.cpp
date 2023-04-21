@@ -132,11 +132,21 @@ int main(int argc, char* argv[]) {
             return 1;
         }
         nb_pack_sent += 1;
-        auto t_wait = sleeper-std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - current_t).count();
-        if (t_wait > 0){
-            std::this_thread::sleep_for(std::chrono::microseconds(t_wait));
-        }
+        // auto t_wait = sleeper-std::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now() - current_t).count();
+        // if (t_wait > 0){
+        //     std::this_thread::sleep_for(std::chrono::microseconds(t_wait));
+        // }
+
+
+        // auto t_wait = sleeper-std::chrono::duration_cast<std::chrono::nanoseconds>(std::chrono::steady_clock::now() - current_t).count();
+        // if (t_wait > 0){
+        //     std::this_thread::sleep_for(std::chrono::nanoseconds(t_wait));
+        // }
         
+        if(sleeper>0){
+            std::this_thread::sleep_for(std::chrono::microseconds(sleeper));
+        }
+
     }
 
     int ev_per_sec = int(nb_pack_sent*message_sz/duration);

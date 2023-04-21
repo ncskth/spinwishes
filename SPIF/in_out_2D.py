@@ -10,26 +10,6 @@ import time
 import os
 import threading
 
-def create_lut(w, h, sh, sw):
-        
-    delay = 1 # 1 [ms]
-    nb_col = math.ceil(w/sw)
-    nb_row = math.ceil(h/sh)
-
-    lut = np.zeros((w*h,2), dtype='uint16')
-
-    lut_ix = 0
-    for h_block in range(nb_row):
-        for v_block in range(nb_col):
-            for row in range(sh):
-                for col in range(sw):
-                    x = v_block*sw+col
-                    y = h_block*sh+row
-                    if x<w and y<h:
-                        lut[lut_ix] = [x, y]
-                        lut_ix += 1
-
-    return lut
 
 class Computer:
 
@@ -57,11 +37,10 @@ class Computer:
         self.pc_ip = args.pc_ip
         self.pc_port = args.pc_port
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        self.lut = create_lut(self.width, self.height, self.npc_x, self.npc_y)
 
         self.direct = args.direct
 
-        self.print_data()
+        self.print_configuration()
         self.ev_count = 0
         self.printer = threading.Thread(target=self.print_ev_count, args=())
         self.printer.start()
@@ -128,11 +107,13 @@ class Computer:
         time.sleep(20)
         t_sleep = 0.1
         while True:
-            print(f"Ev count = {self.ev_count/t_sleep}           \r", end='')
-            self.ev_count = 0
+            # print(f"Ev count = {self.ev_count/t_sleep}           \r", end='')
+            if self.ev_count > 0:
+                print(f"Ev count = {self.ev_count/t_sleep}\n", end='')
+                self.ev_count = 0
             time.sleep(t_sleep)
 
-    def print_data(self):
+    def print_configuration(self):
 
         message = "Simulation Summary:\n"
         message += f"   - runtime: {self.runtime} seconds\n"

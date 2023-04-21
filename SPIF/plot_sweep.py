@@ -12,6 +12,13 @@ def parse_args():
 
 if __name__ == '__main__':
 
+    use_log_scale = True
+
+    if use_log_scale:
+        divider = 1
+    else:
+        divider = 1e6
+
 
     args = parse_args()
 
@@ -38,12 +45,12 @@ if __name__ == '__main__':
         for row in csvreader:
             print(row)
             # store the first column as ev_sent
-            ev_sent.append(float(row[0])/1e6)
+            ev_sent.append(float(row[0])/divider)
             # store the remaining columns as y_data
-            in_handled.append(float(row[1])/1e6)
-            in_dropped.append(float(row[2])/1e6)
-            out_handled.append(float(row[3])/1e6)
-            out_dropped.append(float(row[4])/1e6)
+            in_handled.append(float(row[1])/divider)
+            in_dropped.append(float(row[2])/divider)
+            out_handled.append(float(row[3])/divider)
+            out_dropped.append(float(row[4])/divider)
             ratio_in.append(100*float(row[1])/float(row[0]))
             ratio_out.append(100*float(row[3])/float(row[0]))
 
@@ -59,15 +66,27 @@ if __name__ == '__main__':
 
     # plot the data
     ax.plot(ev_sent, ev_sent, label='Ev Sent', color= 'k', linestyle='--', linewidth=0.5)
-    ax.scatter(ev_sent, in_handled, label='In Handled', alpha=0.5, color='g')
-    ax.scatter(ev_sent, in_dropped, label='In Dropped', alpha=0.5, color='r')
+    ax.scatter(ev_sent, in_handled, label='In Handled', alpha=1, color='g')
+    ax.scatter(ev_sent, out_handled, label='Out Handled', alpha=0.3, color='b')
+    ax.scatter(ev_sent, in_dropped, label='Dropped', alpha=0.5, color='r')
 
     # set the title and labels
     ax.set_title('SPIF: events handled and dropped vs total incoming events')
     ax.set_xlabel('Events streamed to SPIF [Mev/s]')
     ax.set_ylabel('Events handled/dropped by SPIF [Mev/s]')
-    ax.set_xlim([0, 6])
-    ax.set_ylim([0, 6])
+
+    if use_log_scale:
+
+        ax.set_xlim([1, 2e6])
+        ax.set_ylim([1, 2e6])
+        plt.xscale('log')
+        plt.yscale('log')
+    else:
+
+        ax.set_xlim([0, 6])
+        ax.set_ylim([0, 6])
+
+    plt.grid(True)
 
     # show the legend
     plt.legend()

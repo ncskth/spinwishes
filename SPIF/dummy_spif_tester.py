@@ -56,16 +56,16 @@ def create_sleeper_array(op_mode):
 if __name__ == '__main__':
 
 
+    os.system('rm my_data.csv')
 
     args = parse_args()
 
-    pack_size_array = [512]
+    pack_size_array = [128]
     
     op_mode = "sweep_range"
 
 
     date_string = datetime.now().strftime("%Y%m%d_%Hh%M")
-    filename = f"{op_mode}_{date_string}.csv"
     sleeper_array = create_sleeper_array(op_mode)
 
     args.spif_ip = spin_spif_map[str(args.board)]
@@ -78,17 +78,20 @@ if __name__ == '__main__':
 
     
     for pack_size in pack_size_array:
+        
+        filename = f"{op_mode}_pack{pack_size}_{date_string}.csv"
 
         print(f"Staring with pack_size = {pack_size}")
         for sleeper in sleeper_array:
-            cmd = f"./send_and_request {args.width} {args.height} {sleeper} {args.spif_ip}:{args.port} {args.p_request} 1 {pack_size}"
+            cmd = f"./send_and_request.exe {args.width} {args.height} {int(sleeper)} {args.spif_ip}:{args.port} {args.p_request} 1 {pack_size}"
+            print(cmd)
             os.system(cmd) 
-            time.sleep(1)
+            time.sleep(0.2)
 
         # calculate the elapsed time
         elapsed_time = time.time() - start_time
         print(f"Elapsed time: {elapsed_time:.5f} seconds")
-        time.sleep(20)
+        os.system(f"mv my_data.csv {filename}")
+        time.sleep(5)
 
    
-    os.system(f"mv my_data.csv {filename}")
