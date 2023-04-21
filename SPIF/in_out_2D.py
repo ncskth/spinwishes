@@ -137,37 +137,6 @@ class Computer:
 
         np_spikes = np.array(spikes)
         self.ev_count += len(np_spikes)
-        if self.pc_ip == "":
-        #     for i in range(np_spikes.shape[0]):
-        #         print(f"Receving event from neuron id: {np_spikes[i]}")
-            pass
-        else:        
-            data = b""
-
-            P_SHIFT = 15
-            Y_SHIFT = 0
-            X_SHIFT = 16
-            NO_TIMESTAMP = 0x80000000
-            np_spikes = np.array(spikes)
-            # print(np_spikes.shape)
-            ev_count = 0
-            for i in range(np_spikes.shape[0]):
-                x = int(np_spikes[i] % self.width)
-                y = int(np_spikes[i] / self.width)
-                polarity = 1
-                # print(f"{np_spikes[i]} --> ({x},{y})")
-                packed = (NO_TIMESTAMP + (polarity << P_SHIFT) + (y << Y_SHIFT) + (x << X_SHIFT))
-                ev_count +=1
-                if ev_count*4 <= 128:
-                    data += pack("<I", packed)
-                else:
-                    self.sock.sendto(data, (self.pc_ip, self.pc_port))
-                    self.sock.sendto(data, ("10.37.222.2", self.pc_port))
-                    data = pack("<I", packed)
-                    ev_count = 1
-                    
-            self.sock.sendto(data, (self.pc_ip, self.pc_port))
-            self.sock.sendto(data, ("10.37.222.2", self.pc_port))
 
 
     def run_sim(self):
